@@ -1,4 +1,4 @@
-# Nexovia — optimisation de la planification d’interventions
+# Nexovia - optimisation de la planification d’interventions
 
 [![Vérifications](https://github.com/axl-chstn/nexovia-optimisation/actions/workflows/verification.yml/badge.svg)](https://github.com/axl-chstn/nexovia-optimisation/actions/workflows/verification.yml)
 
