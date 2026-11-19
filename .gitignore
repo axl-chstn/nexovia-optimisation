@@ -1,0 +1,14 @@
+# Environnement et caches
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+.matplotlib/
+.pytest_cache/
+# Sorties régénérables et nouvelles campagnes locales
+nouveaux_*/
+analyses/
+analyses_regenerees/
+resultats_glouton.csv
+# Les archives fournies dans resultats/ et resultats_apports/ sont suivies.

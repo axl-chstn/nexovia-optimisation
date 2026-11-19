@@ -1,0 +1,10 @@
+{
+  "sorties_verifiees": {
+    "long_terme": 5,
+    "recuit": 5,
+    "renouvellement": 15
+  },
+  "faisabilite_et_couts": "OK",
+  "historiques_et_seuils": "OK",
+  "empreintes_sources_et_donnees": "OK"
+}

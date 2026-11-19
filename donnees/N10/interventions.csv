@@ -1,0 +1,11 @@
+﻿intervention;nom;duree_min;debut_fenetre_min;fin_fenetre_min;competence_requise
+I1;Intervention 1;30;600;720;COMPTEUR
+I2;Intervention 2;60;540;720;ELEC
+I3;Intervention 3;30;900;1020;EAU
+I4;Intervention 4;60;510;630;ELEC
+I5;Intervention 5;60;540;720;COMPTEUR
+I6;Intervention 6;45;780;900;ELEC
+I7;Intervention 7;45;840;1020;EAU
+I8;Intervention 8;45;540;720;EAU
+I9;Intervention 9;30;780;900;ELEC
+I10;Intervention 10;30;930;1020;ELEC

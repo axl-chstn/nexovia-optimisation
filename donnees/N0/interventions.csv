@@ -1,0 +1,9 @@
+﻿intervention;nom;duree_min;debut_fenetre_min;fin_fenetre_min;competence_requise
+I1;Contrôle armoire;60;480;660;ELEC
+I2;Remplacement compteur;30;510;720;COMPTEUR
+I3;Diagnostic fuite;45;540;720;EAU
+I4;Remise en service;30;600;720;ELEC
+I5;Remplacement compteur;60;780;900;COMPTEUR
+I6;Contrôle hydraulique;60;780;900;EAU
+I7;Diagnostic électrique;60;780;900;ELEC
+I8;Intervention compteur;30;840;885;COMPTEUR

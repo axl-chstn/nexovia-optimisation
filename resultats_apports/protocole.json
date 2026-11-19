@@ -1,0 +1,90 @@
+{
+  "debut_utc": "2026-11-16T22:59:51.855289+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "plateforme": "macOS-27.2.1-arm64-arm-64bit",
+  "cpu_logiques": 8,
+  "empreintes": {
+    "code/genetique.py": "9ca4236d71b3a7a28a481e8a8c7d0dc46c9cd9cb1624f3d7aea7b609106a3710",
+    "code/recuit_reference.py": "342b2c6c57a15c9cb16b59770a6f041005a54ad314860c5d49df7a32197366b3",
+    "code/experiences.py": "df3a4f328b5f61dbffa430b97aac20a365f816f80862d37cece3001e1758246a",
+    "code/genetique_renouvellement.py": "1b404ada904f2f7538ab6c4719274cf38b5d9bb010beb8c7078efe651864c271",
+    "code/verification_csv.py": "dc3aeb3d76e537a05b487c68c5c913ac8c549a1ab2cbbfa2a971c1eddb5971c6",
+    "code/socle.py": "638bf6064ac75c77907a7286df3fa081bab61a397c95e95265f24a88944dc9ec",
+    "donnees/N200/lieux.csv": "d06d2799c60d1f713a6f2763992c2160ed2d19d01ad94ee19c82f58e8875674c",
+    "donnees/N200/parametres.csv": "2fb92f7c744368aef825bf4300be69c41a1b89c0084f4e07e38dcaacea4c3083",
+    "donnees/N200/trajets.csv": "0622b33988305544e1efa7a5be39aa85225c86bc3f4ec8d0bc0aaf394d935e4f",
+    "donnees/N200/disponibilites.csv": "530ee3a1011387ee84bbf280e12a29726b51286c18999754e7e6bef146ba2b64",
+    "donnees/N200/interventions.csv": "b140041d64a471f8e94f84349e91b4bd66f5b74e3fb6cb1458113ad9d40d8a98",
+    "donnees/N200/techniciens.csv": "f279e20d665d208c8b224fcb37b879b8aa054b7cea7e78fa630489706fbf314e",
+    "donnees/N50/lieux.csv": "1c03b021a54a04a845f8025a7e0eda8edbc51187843420623eebf9788e4f7bb0",
+    "donnees/N50/parametres.csv": "462acc53f9190366afe2b8c3a2f06eb3df045fd0bb3465289f1c3fa130511e45",
+    "donnees/N50/trajets.csv": "99f1522ede1be9e25417353882704650143e14d1c07ffcc5a28242e229e75111",
+    "donnees/N50/disponibilites.csv": "10a5ee8ab32a52eee7a9c4cd8f065fc4989ab2a9ce34ed3d922a11e2137c97e7",
+    "donnees/N50/interventions.csv": "8e4e531982cf0695435f7d24b15eac2b5f4deec7ea1ff394ac7c4b1871dac22a",
+    "donnees/N50/techniciens.csv": "0a260938b924cc2791dba2d5c2882ca2a78e1248ef9db1ad55b8adcbc0ae68aa",
+    "S0_N50_exploratoire.json": "bd3fa554b8665ffc3edf27fd4081f53ddc422559269932251f430bacad9024ba",
+    "S0_N200.json": "01fffee89f3154724a3d698c618c3160156c8561e76733b0fd61b7104b72eb31"
+  },
+  "apport_1": {
+    "instance": "N200",
+    "budget_s": 400,
+    "seuils_s": [
+      60,
+      120,
+      180,
+      300,
+      400
+    ],
+    "graines": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "algorithme": "Code final original inchangé ; immigration 20/40."
+  },
+  "temoin": {
+    "instance": "N200",
+    "methode": "Recuit original",
+    "budget_s": 180,
+    "graines": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "Témoin actuel sur la même machine. AG 400 s / recuit 180 s est une comparaison à budgets différents."
+  },
+  "apport_2": {
+    "instance": "N50",
+    "budget_s": 20,
+    "graines": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "politiques": [
+      [
+        0,
+        0
+      ],
+      [
+        10,
+        20
+      ],
+      [
+        20,
+        40
+      ]
+    ],
+    "depart": "Glouton historique recalculé, comme l’étude exploratoire de diversification. Différent du S0 harmonisé de la campagne principale."
+  },
+  "execution": "N50 : trois processus synchronisés par graine, cinq cohortes de 20 s. Ensuite N200 : au plus quatre processus, cinq AG 400 s puis cinq recuits 180 s dans la file. Aucun calcul N50 en concurrence avec N200.",
+  "limites": "Une seule instance par apport, cinq graines ; temps muraux et CPU enregistrés. Les deux expériences ne sont pas fusionnées et leurs coûts ne se comparent pas entre instances.",
+  "fin_utc": "2026-11-16T23:14:55.003226+00:00",
+  "duree_campagne_s": 903.1213933750114
+}

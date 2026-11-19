@@ -1,0 +1,4997 @@
+{
+  "instance": "N30",
+  "graine": 5,
+  "debut": "2026-11-06T20:00:51.457263+01:00",
+  "budget_s": 180,
+  "temps_cpu_s": 179.82126799999998,
+  "parametres": {
+    "taille_population": 20,
+    "proba_croisement": 0.8,
+    "proba_mutation": 0.25
+  },
+  "reference": 333.09900000000005,
+  "solution_initiale": {
+    "A1": [
+      "I17",
+      "I25",
+      "I16",
+      "I2",
+      "I27"
+    ],
+    "A2": [
+      "I30",
+      "I4",
+      "I8",
+      "I11",
+      "I14"
+    ],
+    "A3": [
+      "I22",
+      "I24",
+      "I9",
+      "I7",
+      "I6",
+      "I10"
+    ],
+    "A4": [
+      "I28",
+      "I18",
+      "I12",
+      "I3",
+      "I21",
+      "I26"
+    ],
+    "A5": [
+      "I1",
+      "I5",
+      "I20",
+      "I19",
+      "I13",
+      "I23"
+    ],
+    "reportees": [
+      "I15",
+      "I29"
+    ]
+  },
+  "resultat": {
+    "Essai": 5,
+    "Coût 60": 253.11599999999999,
+    "Coût 120": 248.163,
+    "Coût 180": 248.163,
+    "Reports": 1,
+    "Temps": 180.00191575000645,
+    "Générations": 832,
+    "Population finale": 18,
+    "Historique": [
+      [
+        0.0,
+        333.09900000000005
+      ],
+      [
+        0.21428916600416414,
+        300.736
+      ],
+      [
+        0.4203329159936402,
+        265.273
+      ],
+      [
+        0.5368529999977909,
+        261.932
+      ],
+      [
+        1.1305839580018073,
+        258.07
+      ],
+      [
+        1.2042492910113651,
+        255.682
+      ],
+      [
+        9.87772358302027,
+        253.60500000000002
+      ],
+      [
+        9.878157291008392,
+        253.11599999999999
+      ],
+      [
+        87.84904491601628,
+        248.31300000000002
+      ],
+      [
+        93.55111674999353,
+        248.163
+      ]
+    ],
+    "Suivi population": [
+      {
+        "temps": 0.1256921250023879,
+        "generation": 1,
+        "cout_moyen": 422.5329,
+        "cout_min": 333.09900000000005,
+        "meilleur": 333.09900000000005,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.9114461018567251,
+        "taille": 20
+      },
+      {
+        "temps": 0.4227203750051558,
+        "generation": 5,
+        "cout_moyen": 386.2264,
+        "cout_min": 265.273,
+        "meilleur": 265.273,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7728689504981713,
+        "taille": 20
+      },
+      {
+        "temps": 0.809900624997681,
+        "generation": 8,
+        "cout_moyen": 358.2983,
+        "cout_min": 261.932,
+        "meilleur": 261.932,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6108532746094941,
+        "taille": 20
+      },
+      {
+        "temps": 1.120684583002003,
+        "generation": 10,
+        "cout_moyen": 338.019,
+        "cout_min": 261.932,
+        "meilleur": 261.932,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5376204914994268,
+        "taille": 20
+      },
+      {
+        "temps": 1.419065166002838,
+        "generation": 13,
+        "cout_moyen": 315.4543,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.4803118514300733,
+        "taille": 20
+      },
+      {
+        "temps": 1.8377363329927903,
+        "generation": 16,
+        "cout_moyen": 334.9068,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5401521528010563,
+        "taille": 20
+      },
+      {
+        "temps": 2.126796208001906,
+        "generation": 18,
+        "cout_moyen": 320.5489,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5161152846688303,
+        "taille": 20
+      },
+      {
+        "temps": 2.515825833019335,
+        "generation": 19,
+        "cout_moyen": 345.0752,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5734592182636034,
+        "taille": 20
+      },
+      {
+        "temps": 2.7703111250011716,
+        "generation": 20,
+        "cout_moyen": 327.5569,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.4944512840325648,
+        "taille": 20
+      },
+      {
+        "temps": 3.1646780830051284,
+        "generation": 22,
+        "cout_moyen": 324.15500000000003,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.48329591229009433,
+        "taille": 20
+      },
+      {
+        "temps": 3.577165958005935,
+        "generation": 25,
+        "cout_moyen": 407.3811,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6901002519701195,
+        "taille": 20
+      },
+      {
+        "temps": 3.8361567500105593,
+        "generation": 26,
+        "cout_moyen": 411.50199999999995,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6866839071923176,
+        "taille": 20
+      },
+      {
+        "temps": 4.265457833011169,
+        "generation": 28,
+        "cout_moyen": 379.70320000000004,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6772609640946325,
+        "taille": 20
+      },
+      {
+        "temps": 4.8253872909990605,
+        "generation": 30,
+        "cout_moyen": 397.00585,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6287574391048532,
+        "taille": 20
+      },
+      {
+        "temps": 5.101783332997002,
+        "generation": 31,
+        "cout_moyen": 394.58389999999997,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6558700379146989,
+        "taille": 20
+      },
+      {
+        "temps": 5.469440457993187,
+        "generation": 32,
+        "cout_moyen": 406.47355,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6879731359800486,
+        "taille": 20
+      },
+      {
+        "temps": 5.924340833007591,
+        "generation": 34,
+        "cout_moyen": 424.92295,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7371380084790082,
+        "taille": 20
+      },
+      {
+        "temps": 6.255945915996563,
+        "generation": 35,
+        "cout_moyen": 413.53460000000007,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7128755990713657,
+        "taille": 20
+      },
+      {
+        "temps": 6.669536458008224,
+        "generation": 37,
+        "cout_moyen": 407.07245,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7317349701774818,
+        "taille": 20
+      },
+      {
+        "temps": 7.169268375000684,
+        "generation": 39,
+        "cout_moyen": 410.45680000000004,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7067854799619849,
+        "taille": 20
+      },
+      {
+        "temps": 7.433691625017673,
+        "generation": 40,
+        "cout_moyen": 401.8743,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6990310591248938,
+        "taille": 20
+      },
+      {
+        "temps": 7.732742207997944,
+        "generation": 41,
+        "cout_moyen": 399.7599,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6508726582981593,
+        "taille": 20
+      },
+      {
+        "temps": 8.089787500008242,
+        "generation": 43,
+        "cout_moyen": 410.08594999999997,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7430166707886626,
+        "taille": 20
+      },
+      {
+        "temps": 8.568906208005501,
+        "generation": 45,
+        "cout_moyen": 409.12445,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7726995326601374,
+        "taille": 20
+      },
+      {
+        "temps": 9.093833082995843,
+        "generation": 47,
+        "cout_moyen": 398.0648,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6816526145798079,
+        "taille": 20
+      },
+      {
+        "temps": 9.524585083010606,
+        "generation": 49,
+        "cout_moyen": 409.4708,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7059837189360068,
+        "taille": 20
+      },
+      {
+        "temps": 9.81196595801157,
+        "generation": 51,
+        "cout_moyen": 396.81875,
+        "cout_min": 255.682,
+        "meilleur": 255.682,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6976218300996516,
+        "taille": 20
+      },
+      {
+        "temps": 10.077850666013546,
+        "generation": 54,
+        "cout_moyen": 352.7191,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6023254847207082,
+        "taille": 20
+      },
+      {
+        "temps": 10.429336208006134,
+        "generation": 57,
+        "cout_moyen": 336.52645,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5698197133039431,
+        "taille": 20
+      },
+      {
+        "temps": 10.722137500008103,
+        "generation": 59,
+        "cout_moyen": 324.067,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5552326109401651,
+        "taille": 20
+      },
+      {
+        "temps": 11.040462500008289,
+        "generation": 61,
+        "cout_moyen": 328.6708,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5224608278465842,
+        "taille": 20
+      },
+      {
+        "temps": 11.401539583021076,
+        "generation": 63,
+        "cout_moyen": 370.55545,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6056695556233657,
+        "taille": 20
+      },
+      {
+        "temps": 11.67961925000418,
+        "generation": 64,
+        "cout_moyen": 382.69405,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6119008791195016,
+        "taille": 20
+      },
+      {
+        "temps": 12.186833875020966,
+        "generation": 66,
+        "cout_moyen": 397.271,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.720573593291501,
+        "taille": 20
+      },
+      {
+        "temps": 12.5657114580099,
+        "generation": 69,
+        "cout_moyen": 376.1814,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6395357317834756,
+        "taille": 20
+      },
+      {
+        "temps": 12.872757833014475,
+        "generation": 70,
+        "cout_moyen": 401.87335,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7029501683960051,
+        "taille": 20
+      },
+      {
+        "temps": 13.24925995801459,
+        "generation": 72,
+        "cout_moyen": 394.5449,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7230034400176155,
+        "taille": 20
+      },
+      {
+        "temps": 13.517879166000057,
+        "generation": 73,
+        "cout_moyen": 399.4133,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6999994308659229,
+        "taille": 20
+      },
+      {
+        "temps": 13.817577666020952,
+        "generation": 75,
+        "cout_moyen": 393.7787,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7242685091755596,
+        "taille": 20
+      },
+      {
+        "temps": 14.309384874999523,
+        "generation": 77,
+        "cout_moyen": 402.12495,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7426331340696295,
+        "taille": 20
+      },
+      {
+        "temps": 14.851111875002971,
+        "generation": 79,
+        "cout_moyen": 377.0695,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6518416292734182,
+        "taille": 20
+      },
+      {
+        "temps": 15.317786916013574,
+        "generation": 81,
+        "cout_moyen": 405.77545,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7219208294014472,
+        "taille": 20
+      },
+      {
+        "temps": 15.676540915999794,
+        "generation": 82,
+        "cout_moyen": 389.15115000000003,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6619425195067324,
+        "taille": 20
+      },
+      {
+        "temps": 16.012339708016952,
+        "generation": 84,
+        "cout_moyen": 398.9049,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7054429098216166,
+        "taille": 20
+      },
+      {
+        "temps": 16.33565979101695,
+        "generation": 86,
+        "cout_moyen": 410.84700000000004,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7051181864575291,
+        "taille": 20
+      },
+      {
+        "temps": 16.636178375018062,
+        "generation": 87,
+        "cout_moyen": 392.31385,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6582649191097676,
+        "taille": 20
+      },
+      {
+        "temps": 17.033991083008004,
+        "generation": 89,
+        "cout_moyen": 395.96860000000004,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6708369068777467,
+        "taille": 20
+      },
+      {
+        "temps": 17.469364874996245,
+        "generation": 91,
+        "cout_moyen": 412.70415,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6958467801601775,
+        "taille": 20
+      },
+      {
+        "temps": 17.99194554099813,
+        "generation": 93,
+        "cout_moyen": 402.06985,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.665250953651835,
+        "taille": 20
+      },
+      {
+        "temps": 18.435127583012218,
+        "generation": 95,
+        "cout_moyen": 399.5518,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6858674455911677,
+        "taille": 20
+      },
+      {
+        "temps": 18.87287670801743,
+        "generation": 97,
+        "cout_moyen": 382.20005000000003,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6623675037310186,
+        "taille": 20
+      },
+      {
+        "temps": 19.380083875003038,
+        "generation": 99,
+        "cout_moyen": 397.09340000000003,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6790806089463639,
+        "taille": 20
+      },
+      {
+        "temps": 19.763326625019545,
+        "generation": 101,
+        "cout_moyen": 414.8504,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7586990646241103,
+        "taille": 20
+      },
+      {
+        "temps": 20.080644291010685,
+        "generation": 102,
+        "cout_moyen": 409.4429,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7463438556272282,
+        "taille": 20
+      },
+      {
+        "temps": 20.58820787500008,
+        "generation": 104,
+        "cout_moyen": 403.19304999999997,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.692506935764854,
+        "taille": 20
+      },
+      {
+        "temps": 20.94658708301722,
+        "generation": 105,
+        "cout_moyen": 402.08015,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7137487205104434,
+        "taille": 20
+      },
+      {
+        "temps": 21.207781333010644,
+        "generation": 106,
+        "cout_moyen": 384.57425,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6875122272691281,
+        "taille": 20
+      },
+      {
+        "temps": 21.726838500006124,
+        "generation": 108,
+        "cout_moyen": 413.08035,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7107441218352695,
+        "taille": 20
+      },
+      {
+        "temps": 22.081340000004275,
+        "generation": 109,
+        "cout_moyen": 399.6067,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7158412574012182,
+        "taille": 20
+      },
+      {
+        "temps": 22.483477166009834,
+        "generation": 111,
+        "cout_moyen": 392.5544,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6955282032963819,
+        "taille": 20
+      },
+      {
+        "temps": 22.891136541002197,
+        "generation": 113,
+        "cout_moyen": 405.8476,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7586279185416616,
+        "taille": 20
+      },
+      {
+        "temps": 23.22908687501331,
+        "generation": 115,
+        "cout_moyen": 401.96905000000004,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.708135437641728,
+        "taille": 20
+      },
+      {
+        "temps": 23.77503325001453,
+        "generation": 117,
+        "cout_moyen": 388.00014999999996,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6520210434585925,
+        "taille": 20
+      },
+      {
+        "temps": 24.172567000001436,
+        "generation": 118,
+        "cout_moyen": 391.6762,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6940205462001937,
+        "taille": 20
+      },
+      {
+        "temps": 24.450048333004816,
+        "generation": 119,
+        "cout_moyen": 382.2103,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7061306584607737,
+        "taille": 20
+      },
+      {
+        "temps": 24.836059708002722,
+        "generation": 121,
+        "cout_moyen": 378.53425000000004,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6955957788354589,
+        "taille": 20
+      },
+      {
+        "temps": 25.157224208000116,
+        "generation": 122,
+        "cout_moyen": 399.88320000000004,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7208526301221418,
+        "taille": 20
+      },
+      {
+        "temps": 25.488227333000395,
+        "generation": 123,
+        "cout_moyen": 398.67915,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6573793110254936,
+        "taille": 20
+      },
+      {
+        "temps": 25.825974250008585,
+        "generation": 124,
+        "cout_moyen": 384.36929999999995,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7044572496272639,
+        "taille": 20
+      },
+      {
+        "temps": 26.171886958007235,
+        "generation": 125,
+        "cout_moyen": 403.46864999999997,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7101364327128646,
+        "taille": 20
+      },
+      {
+        "temps": 26.482400166016305,
+        "generation": 126,
+        "cout_moyen": 408.19370000000004,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7207804974022276,
+        "taille": 20
+      },
+      {
+        "temps": 26.999769999994896,
+        "generation": 128,
+        "cout_moyen": 433.3402,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7822055719676989,
+        "taille": 20
+      },
+      {
+        "temps": 27.36742220801534,
+        "generation": 130,
+        "cout_moyen": 416.63215,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7751317144592884,
+        "taille": 20
+      },
+      {
+        "temps": 27.81954554101685,
+        "generation": 132,
+        "cout_moyen": 409.84220000000005,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7315963739221192,
+        "taille": 20
+      },
+      {
+        "temps": 28.12439787501353,
+        "generation": 134,
+        "cout_moyen": 418.98055000000005,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7375101474857103,
+        "taille": 20
+      },
+      {
+        "temps": 28.400937416008674,
+        "generation": 135,
+        "cout_moyen": 444.51090000000005,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7973556194659163,
+        "taille": 20
+      },
+      {
+        "temps": 28.802193500014255,
+        "generation": 137,
+        "cout_moyen": 438.11289999999997,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8033659454376695,
+        "taille": 20
+      },
+      {
+        "temps": 29.265828041010536,
+        "generation": 139,
+        "cout_moyen": 420.3866,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7595178335403464,
+        "taille": 20
+      },
+      {
+        "temps": 29.716066207998665,
+        "generation": 141,
+        "cout_moyen": 437.2415,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8001683482439448,
+        "taille": 20
+      },
+      {
+        "temps": 30.194913540995913,
+        "generation": 143,
+        "cout_moyen": 429.9982,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7604623906774528,
+        "taille": 20
+      },
+      {
+        "temps": 30.476577291003196,
+        "generation": 144,
+        "cout_moyen": 407.88685,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7447519862566588,
+        "taille": 20
+      },
+      {
+        "temps": 30.762305083015235,
+        "generation": 145,
+        "cout_moyen": 426.4007,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7475723329405287,
+        "taille": 20
+      },
+      {
+        "temps": 31.134281291015213,
+        "generation": 147,
+        "cout_moyen": 416.86764999999997,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7662731631098922,
+        "taille": 20
+      },
+      {
+        "temps": 31.491641291009728,
+        "generation": 149,
+        "cout_moyen": 416.29355,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7723273939771329,
+        "taille": 20
+      },
+      {
+        "temps": 31.817531416018028,
+        "generation": 151,
+        "cout_moyen": 411.2979,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7221400497662214,
+        "taille": 20
+      },
+      {
+        "temps": 32.087481416005176,
+        "generation": 152,
+        "cout_moyen": 440.66679999999997,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7933292748682292,
+        "taille": 20
+      },
+      {
+        "temps": 32.439395916007925,
+        "generation": 154,
+        "cout_moyen": 433.39335,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8043191552559138,
+        "taille": 20
+      },
+      {
+        "temps": 32.826611750002485,
+        "generation": 156,
+        "cout_moyen": 409.75855,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7455185597056037,
+        "taille": 20
+      },
+      {
+        "temps": 33.108843249996426,
+        "generation": 157,
+        "cout_moyen": 406.9466,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7221432738270434,
+        "taille": 20
+      },
+      {
+        "temps": 33.434679541009245,
+        "generation": 159,
+        "cout_moyen": 424.27945,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.753048701564861,
+        "taille": 20
+      },
+      {
+        "temps": 33.83210212501581,
+        "generation": 161,
+        "cout_moyen": 411.19925,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7306304192019945,
+        "taille": 20
+      },
+      {
+        "temps": 34.187364290992264,
+        "generation": 163,
+        "cout_moyen": 386.52495,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6874264949625285,
+        "taille": 20
+      },
+      {
+        "temps": 34.53803637501551,
+        "generation": 165,
+        "cout_moyen": 397.161,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6629346339700543,
+        "taille": 20
+      },
+      {
+        "temps": 34.92974750002031,
+        "generation": 167,
+        "cout_moyen": 410.09225,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7055837703285346,
+        "taille": 20
+      },
+      {
+        "temps": 35.31428591601434,
+        "generation": 169,
+        "cout_moyen": 380.1663,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6374742658868437,
+        "taille": 20
+      },
+      {
+        "temps": 35.763098958006594,
+        "generation": 171,
+        "cout_moyen": 398.52125,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7173417535755324,
+        "taille": 20
+      },
+      {
+        "temps": 36.10636833301396,
+        "generation": 173,
+        "cout_moyen": 416.81769999999995,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7215748217663616,
+        "taille": 20
+      },
+      {
+        "temps": 36.400099291000515,
+        "generation": 174,
+        "cout_moyen": 417.9974,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7009512166096482,
+        "taille": 20
+      },
+      {
+        "temps": 36.684356750018196,
+        "generation": 176,
+        "cout_moyen": 388.81665,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6660280782144737,
+        "taille": 20
+      },
+      {
+        "temps": 37.037186583009316,
+        "generation": 177,
+        "cout_moyen": 398.91215,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.712590076204467,
+        "taille": 20
+      },
+      {
+        "temps": 37.48628375001135,
+        "generation": 179,
+        "cout_moyen": 410.0113,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7269881048892746,
+        "taille": 20
+      },
+      {
+        "temps": 37.87618766599917,
+        "generation": 181,
+        "cout_moyen": 386.17135,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6379809714090184,
+        "taille": 20
+      },
+      {
+        "temps": 38.34457800001837,
+        "generation": 183,
+        "cout_moyen": 390.97395,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6720361341317569,
+        "taille": 20
+      },
+      {
+        "temps": 38.605377583007794,
+        "generation": 184,
+        "cout_moyen": 394.0107,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6710830260476467,
+        "taille": 20
+      },
+      {
+        "temps": 38.87557137501426,
+        "generation": 186,
+        "cout_moyen": 395.21895,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7222598534898051,
+        "taille": 20
+      },
+      {
+        "temps": 39.152553708001506,
+        "generation": 187,
+        "cout_moyen": 391.27660000000003,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6816202840466825,
+        "taille": 20
+      },
+      {
+        "temps": 39.47855170801631,
+        "generation": 189,
+        "cout_moyen": 365.19655,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5591773274706505,
+        "taille": 20
+      },
+      {
+        "temps": 39.949343208019855,
+        "generation": 191,
+        "cout_moyen": 402.34749999999997,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7090489230990978,
+        "taille": 20
+      },
+      {
+        "temps": 40.24200358300004,
+        "generation": 192,
+        "cout_moyen": 399.04355,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6819151187690128,
+        "taille": 20
+      },
+      {
+        "temps": 40.73729962500511,
+        "generation": 194,
+        "cout_moyen": 396.51374999999996,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.688967934602583,
+        "taille": 20
+      },
+      {
+        "temps": 41.01348525000503,
+        "generation": 195,
+        "cout_moyen": 399.318,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7192742573717522,
+        "taille": 20
+      },
+      {
+        "temps": 41.31012475001626,
+        "generation": 196,
+        "cout_moyen": 376.0756,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6302094153883637,
+        "taille": 20
+      },
+      {
+        "temps": 41.57758700000704,
+        "generation": 197,
+        "cout_moyen": 417.54985,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7469956363963682,
+        "taille": 20
+      },
+      {
+        "temps": 41.95192004099954,
+        "generation": 199,
+        "cout_moyen": 407.88855,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7050129668337989,
+        "taille": 20
+      },
+      {
+        "temps": 42.42819870801759,
+        "generation": 201,
+        "cout_moyen": 429.1394,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7623757287737025,
+        "taille": 20
+      },
+      {
+        "temps": 42.72245887501049,
+        "generation": 202,
+        "cout_moyen": 407.67755,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7324089015707955,
+        "taille": 20
+      },
+      {
+        "temps": 43.1237992499955,
+        "generation": 204,
+        "cout_moyen": 407.67795,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7352578464634172,
+        "taille": 20
+      },
+      {
+        "temps": 43.447528832999524,
+        "generation": 206,
+        "cout_moyen": 379.02345,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6674937976918546,
+        "taille": 20
+      },
+      {
+        "temps": 43.75598491600249,
+        "generation": 208,
+        "cout_moyen": 397.21075,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7009303490366707,
+        "taille": 20
+      },
+      {
+        "temps": 44.17526600000565,
+        "generation": 210,
+        "cout_moyen": 404.51505,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7191498222796764,
+        "taille": 20
+      },
+      {
+        "temps": 44.436323833011556,
+        "generation": 212,
+        "cout_moyen": 404.29634999999996,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7334436002268391,
+        "taille": 20
+      },
+      {
+        "temps": 44.69051720801508,
+        "generation": 213,
+        "cout_moyen": 407.91155000000003,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6940153109166011,
+        "taille": 20
+      },
+      {
+        "temps": 45.089737833011895,
+        "generation": 215,
+        "cout_moyen": 392.9039,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6843276602314516,
+        "taille": 20
+      },
+      {
+        "temps": 45.50141650001751,
+        "generation": 217,
+        "cout_moyen": 394.46845,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7023872376348999,
+        "taille": 20
+      },
+      {
+        "temps": 45.94488066600752,
+        "generation": 219,
+        "cout_moyen": 398.38065,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6990045621590686,
+        "taille": 20
+      },
+      {
+        "temps": 46.263474083010806,
+        "generation": 220,
+        "cout_moyen": 411.23150000000004,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7121396175507909,
+        "taille": 20
+      },
+      {
+        "temps": 46.80366583299474,
+        "generation": 222,
+        "cout_moyen": 377.57795,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6502567473130934,
+        "taille": 20
+      },
+      {
+        "temps": 47.2135097910068,
+        "generation": 224,
+        "cout_moyen": 405.57845000000003,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6274013859413254,
+        "taille": 20
+      },
+      {
+        "temps": 47.60094541599392,
+        "generation": 225,
+        "cout_moyen": 410.08205,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7009704611813383,
+        "taille": 20
+      },
+      {
+        "temps": 47.895688749995315,
+        "generation": 226,
+        "cout_moyen": 411.62074999999993,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7551037010675545,
+        "taille": 20
+      },
+      {
+        "temps": 48.16600145801203,
+        "generation": 227,
+        "cout_moyen": 404.68185,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7396449152339095,
+        "taille": 20
+      },
+      {
+        "temps": 48.63400558300782,
+        "generation": 229,
+        "cout_moyen": 406.3657,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7115742841995004,
+        "taille": 20
+      },
+      {
+        "temps": 48.8960468750156,
+        "generation": 230,
+        "cout_moyen": 422.33320000000003,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7312279050946453,
+        "taille": 20
+      },
+      {
+        "temps": 49.25554683301016,
+        "generation": 232,
+        "cout_moyen": 408.8405,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7687119410365211,
+        "taille": 20
+      },
+      {
+        "temps": 49.68994312500581,
+        "generation": 234,
+        "cout_moyen": 421.68919999999997,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7390586435494724,
+        "taille": 20
+      },
+      {
+        "temps": 49.97016691599856,
+        "generation": 235,
+        "cout_moyen": 395.8082,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6485456880925132,
+        "taille": 20
+      },
+      {
+        "temps": 50.350372165994486,
+        "generation": 237,
+        "cout_moyen": 372.13235,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6380075089633525,
+        "taille": 20
+      },
+      {
+        "temps": 50.72416616600822,
+        "generation": 239,
+        "cout_moyen": 387.43240000000003,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6790264578263402,
+        "taille": 20
+      },
+      {
+        "temps": 51.042297500011045,
+        "generation": 241,
+        "cout_moyen": 390.7799,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7221426198411021,
+        "taille": 20
+      },
+      {
+        "temps": 51.35322033299599,
+        "generation": 243,
+        "cout_moyen": 401.8314,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7646616892981541,
+        "taille": 20
+      },
+      {
+        "temps": 51.72287891601445,
+        "generation": 245,
+        "cout_moyen": 402.23249999999996,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7284448801836011,
+        "taille": 20
+      },
+      {
+        "temps": 52.00465650000842,
+        "generation": 246,
+        "cout_moyen": 428.86980000000005,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8019493331879991,
+        "taille": 20
+      },
+      {
+        "temps": 52.53503520801314,
+        "generation": 248,
+        "cout_moyen": 401.83675,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7152510208501811,
+        "taille": 20
+      },
+      {
+        "temps": 52.81977845801157,
+        "generation": 250,
+        "cout_moyen": 389.89875,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6573317882711293,
+        "taille": 20
+      },
+      {
+        "temps": 53.18860079100705,
+        "generation": 252,
+        "cout_moyen": 389.0224,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6694613293953798,
+        "taille": 20
+      },
+      {
+        "temps": 53.49605804099701,
+        "generation": 254,
+        "cout_moyen": 398.3036,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6860921150331272,
+        "taille": 20
+      },
+      {
+        "temps": 53.88997704102076,
+        "generation": 256,
+        "cout_moyen": 377.3666,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6500881948279841,
+        "taille": 20
+      },
+      {
+        "temps": 54.3423974160105,
+        "generation": 258,
+        "cout_moyen": 380.22345,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6389314552261876,
+        "taille": 20
+      },
+      {
+        "temps": 54.740759958018316,
+        "generation": 260,
+        "cout_moyen": 411.51050000000004,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7709698942526175,
+        "taille": 20
+      },
+      {
+        "temps": 55.12080966599751,
+        "generation": 262,
+        "cout_moyen": 407.54994999999997,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7188309599167277,
+        "taille": 20
+      },
+      {
+        "temps": 55.44774050000706,
+        "generation": 264,
+        "cout_moyen": 383.9855,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7218792794951052,
+        "taille": 20
+      },
+      {
+        "temps": 55.701038583007175,
+        "generation": 265,
+        "cout_moyen": 388.7931,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7313629343669279,
+        "taille": 20
+      },
+      {
+        "temps": 56.11677558301017,
+        "generation": 267,
+        "cout_moyen": 426.25485,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7323213385128916,
+        "taille": 20
+      },
+      {
+        "temps": 56.4133101660118,
+        "generation": 268,
+        "cout_moyen": 414.52405,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6790594308581526,
+        "taille": 20
+      },
+      {
+        "temps": 56.6919792080007,
+        "generation": 270,
+        "cout_moyen": 398.04519999999997,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6899500515076606,
+        "taille": 20
+      },
+      {
+        "temps": 56.943360666016815,
+        "generation": 271,
+        "cout_moyen": 407.83055,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7197592450672039,
+        "taille": 20
+      },
+      {
+        "temps": 57.22702166601084,
+        "generation": 272,
+        "cout_moyen": 412.37385000000006,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7233662408792869,
+        "taille": 20
+      },
+      {
+        "temps": 57.52726362500107,
+        "generation": 274,
+        "cout_moyen": 386.35585000000003,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6976952267057952,
+        "taille": 20
+      },
+      {
+        "temps": 58.02666595799383,
+        "generation": 276,
+        "cout_moyen": 393.51300000000003,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6702318589653152,
+        "taille": 20
+      },
+      {
+        "temps": 58.48789625000791,
+        "generation": 278,
+        "cout_moyen": 376.4389,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6701102519905056,
+        "taille": 20
+      },
+      {
+        "temps": 58.90719800000079,
+        "generation": 280,
+        "cout_moyen": 390.46475,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6211763778908719,
+        "taille": 20
+      },
+      {
+        "temps": 59.406354583014036,
+        "generation": 282,
+        "cout_moyen": 400.9914,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6473783720860303,
+        "taille": 20
+      },
+      {
+        "temps": 59.682938540994655,
+        "generation": 283,
+        "cout_moyen": 406.58475,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6657199240527762,
+        "taille": 20
+      },
+      {
+        "temps": 59.96977437500027,
+        "generation": 284,
+        "cout_moyen": 412.9111,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7147006139218602,
+        "taille": 20
+      },
+      {
+        "temps": 60.31425733299693,
+        "generation": 285,
+        "cout_moyen": 372.7578,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6106093019010457,
+        "taille": 20
+      },
+      {
+        "temps": 60.56652095800382,
+        "generation": 286,
+        "cout_moyen": 384.9337,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.635798653986112,
+        "taille": 20
+      },
+      {
+        "temps": 60.96714966601576,
+        "generation": 288,
+        "cout_moyen": 393.77545,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7127279790333079,
+        "taille": 20
+      },
+      {
+        "temps": 61.22254795799381,
+        "generation": 289,
+        "cout_moyen": 400.8953,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6890576595056092,
+        "taille": 20
+      },
+      {
+        "temps": 61.56684275000589,
+        "generation": 290,
+        "cout_moyen": 387.53445,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7003879240711686,
+        "taille": 20
+      },
+      {
+        "temps": 61.93761458300287,
+        "generation": 292,
+        "cout_moyen": 392.40590000000003,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6911867070143625,
+        "taille": 20
+      },
+      {
+        "temps": 62.36355683300644,
+        "generation": 294,
+        "cout_moyen": 395.22455,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6838522399275356,
+        "taille": 20
+      },
+      {
+        "temps": 62.77845329101547,
+        "generation": 296,
+        "cout_moyen": 385.53015,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6993525843129091,
+        "taille": 20
+      },
+      {
+        "temps": 63.0888633330178,
+        "generation": 297,
+        "cout_moyen": 407.0377,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7418686200991826,
+        "taille": 20
+      },
+      {
+        "temps": 63.361215291020926,
+        "generation": 298,
+        "cout_moyen": 391.9322,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6772930818700993,
+        "taille": 20
+      },
+      {
+        "temps": 63.68390587501926,
+        "generation": 300,
+        "cout_moyen": 394.15,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6934573158695675,
+        "taille": 20
+      },
+      {
+        "temps": 63.992785250011366,
+        "generation": 302,
+        "cout_moyen": 393.24505,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6718033375820489,
+        "taille": 20
+      },
+      {
+        "temps": 64.26240833301563,
+        "generation": 303,
+        "cout_moyen": 382.21335,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6684552392278003,
+        "taille": 20
+      },
+      {
+        "temps": 64.7258785830054,
+        "generation": 305,
+        "cout_moyen": 392.6062,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6514277138065989,
+        "taille": 20
+      },
+      {
+        "temps": 65.1175807499967,
+        "generation": 306,
+        "cout_moyen": 382.5804,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6610613670586791,
+        "taille": 20
+      },
+      {
+        "temps": 65.51359266601503,
+        "generation": 308,
+        "cout_moyen": 391.4271,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6744582086080577,
+        "taille": 20
+      },
+      {
+        "temps": 65.92992179101566,
+        "generation": 310,
+        "cout_moyen": 412.34885,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7399977737290936,
+        "taille": 20
+      },
+      {
+        "temps": 66.25757516600424,
+        "generation": 312,
+        "cout_moyen": 421.1593,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8054040538232325,
+        "taille": 20
+      },
+      {
+        "temps": 66.51098420799826,
+        "generation": 313,
+        "cout_moyen": 428.39804999999996,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8129101584374462,
+        "taille": 20
+      },
+      {
+        "temps": 66.88121600000886,
+        "generation": 315,
+        "cout_moyen": 424.10524999999996,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.774845321052907,
+        "taille": 20
+      },
+      {
+        "temps": 67.22473145800177,
+        "generation": 317,
+        "cout_moyen": 392.63175,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6976448485084066,
+        "taille": 20
+      },
+      {
+        "temps": 67.62236208299873,
+        "generation": 319,
+        "cout_moyen": 421.2398,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7659540279868602,
+        "taille": 20
+      },
+      {
+        "temps": 68.15128275001189,
+        "generation": 321,
+        "cout_moyen": 393.78975,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.686330261601007,
+        "taille": 20
+      },
+      {
+        "temps": 68.51125516599859,
+        "generation": 323,
+        "cout_moyen": 392.7185,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6636104140003398,
+        "taille": 20
+      },
+      {
+        "temps": 68.87953637499595,
+        "generation": 324,
+        "cout_moyen": 374.60235,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6549559350716193,
+        "taille": 20
+      },
+      {
+        "temps": 69.27867037500255,
+        "generation": 326,
+        "cout_moyen": 394.57605,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6407125049455762,
+        "taille": 20
+      },
+      {
+        "temps": 69.66614474999369,
+        "generation": 328,
+        "cout_moyen": 408.9397,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6997290200006225,
+        "taille": 20
+      },
+      {
+        "temps": 69.94541087499238,
+        "generation": 330,
+        "cout_moyen": 389.0194,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6549021832062996,
+        "taille": 20
+      },
+      {
+        "temps": 70.29135425001732,
+        "generation": 332,
+        "cout_moyen": 398.8351,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6330527267951384,
+        "taille": 20
+      },
+      {
+        "temps": 70.65494058301556,
+        "generation": 334,
+        "cout_moyen": 408.74805000000003,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6903026045874858,
+        "taille": 20
+      },
+      {
+        "temps": 70.95873554100399,
+        "generation": 336,
+        "cout_moyen": 383.84794999999997,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.714672316381074,
+        "taille": 20
+      },
+      {
+        "temps": 71.44917537501897,
+        "generation": 338,
+        "cout_moyen": 403.1622,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7604977514792084,
+        "taille": 20
+      },
+      {
+        "temps": 71.8453913750127,
+        "generation": 340,
+        "cout_moyen": 390.2658,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6429289167136161,
+        "taille": 20
+      },
+      {
+        "temps": 72.18317304100492,
+        "generation": 341,
+        "cout_moyen": 396.48785,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6848592605850673,
+        "taille": 20
+      },
+      {
+        "temps": 72.47991208301391,
+        "generation": 342,
+        "cout_moyen": 384.62334999999996,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6197350515272383,
+        "taille": 20
+      },
+      {
+        "temps": 73.0077235000208,
+        "generation": 344,
+        "cout_moyen": 381.37469999999996,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6449816348807673,
+        "taille": 20
+      },
+      {
+        "temps": 73.55066237499705,
+        "generation": 346,
+        "cout_moyen": 403.00475,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7248977266947462,
+        "taille": 20
+      },
+      {
+        "temps": 73.91406733301119,
+        "generation": 348,
+        "cout_moyen": 409.05165,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7125477717716567,
+        "taille": 20
+      },
+      {
+        "temps": 74.41985000000568,
+        "generation": 350,
+        "cout_moyen": 406.6214,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6763135297673729,
+        "taille": 20
+      },
+      {
+        "temps": 74.69507379099377,
+        "generation": 352,
+        "cout_moyen": 411.6496,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6710015896898093,
+        "taille": 20
+      },
+      {
+        "temps": 75.01390024999273,
+        "generation": 354,
+        "cout_moyen": 400.81925,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6470638266665134,
+        "taille": 20
+      },
+      {
+        "temps": 75.51593112500268,
+        "generation": 356,
+        "cout_moyen": 418.29530000000005,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.727727456165354,
+        "taille": 20
+      },
+      {
+        "temps": 75.88536354101961,
+        "generation": 358,
+        "cout_moyen": 439.67545,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8001157768733135,
+        "taille": 20
+      },
+      {
+        "temps": 76.27104208301171,
+        "generation": 359,
+        "cout_moyen": 404.89610000000005,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6943386112787995,
+        "taille": 20
+      },
+      {
+        "temps": 76.6538076660072,
+        "generation": 361,
+        "cout_moyen": 412.3786,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6748424712161175,
+        "taille": 20
+      },
+      {
+        "temps": 77.04367229100899,
+        "generation": 363,
+        "cout_moyen": 387.6039,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6597200398987594,
+        "taille": 20
+      },
+      {
+        "temps": 77.36439787500422,
+        "generation": 364,
+        "cout_moyen": 389.255,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6518290289304064,
+        "taille": 20
+      },
+      {
+        "temps": 77.63243270799285,
+        "generation": 365,
+        "cout_moyen": 416.2613,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7067758142494799,
+        "taille": 20
+      },
+      {
+        "temps": 77.90560979099246,
+        "generation": 366,
+        "cout_moyen": 395.4591,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7122241050046341,
+        "taille": 20
+      },
+      {
+        "temps": 78.33995362499263,
+        "generation": 368,
+        "cout_moyen": 403.09765000000004,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6283325231410389,
+        "taille": 20
+      },
+      {
+        "temps": 78.75574412499554,
+        "generation": 370,
+        "cout_moyen": 369.4718,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5661067480275938,
+        "taille": 20
+      },
+      {
+        "temps": 79.12859770801151,
+        "generation": 371,
+        "cout_moyen": 377.25315,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6252360278939506,
+        "taille": 20
+      },
+      {
+        "temps": 79.56942012501531,
+        "generation": 373,
+        "cout_moyen": 400.30855,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7230740600984545,
+        "taille": 20
+      },
+      {
+        "temps": 79.85231237500557,
+        "generation": 375,
+        "cout_moyen": 376.26415000000003,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6742165653217229,
+        "taille": 20
+      },
+      {
+        "temps": 80.29173804100719,
+        "generation": 377,
+        "cout_moyen": 415.75705,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7269228384927556,
+        "taille": 20
+      },
+      {
+        "temps": 80.58147170802113,
+        "generation": 378,
+        "cout_moyen": 405.4991,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7088829443584662,
+        "taille": 20
+      },
+      {
+        "temps": 80.8688074160018,
+        "generation": 379,
+        "cout_moyen": 393.2867,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6726241625672952,
+        "taille": 20
+      },
+      {
+        "temps": 81.38277933301288,
+        "generation": 381,
+        "cout_moyen": 378.7677,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6006944230414221,
+        "taille": 20
+      },
+      {
+        "temps": 81.73896550000063,
+        "generation": 383,
+        "cout_moyen": 376.82435,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5979798527531308,
+        "taille": 20
+      },
+      {
+        "temps": 82.21163720800541,
+        "generation": 385,
+        "cout_moyen": 425.79675,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.743179622204732,
+        "taille": 20
+      },
+      {
+        "temps": 82.64831304101972,
+        "generation": 387,
+        "cout_moyen": 402.23310000000004,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7341675052912798,
+        "taille": 20
+      },
+      {
+        "temps": 83.01330037499429,
+        "generation": 389,
+        "cout_moyen": 407.92815,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7564345633161722,
+        "taille": 20
+      },
+      {
+        "temps": 83.49495004100027,
+        "generation": 391,
+        "cout_moyen": 427.311,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7710720993851371,
+        "taille": 20
+      },
+      {
+        "temps": 83.84470812501968,
+        "generation": 392,
+        "cout_moyen": 424.74750000000006,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8002998140741686,
+        "taille": 20
+      },
+      {
+        "temps": 84.22537637501955,
+        "generation": 394,
+        "cout_moyen": 409.962,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7943858911024368,
+        "taille": 20
+      },
+      {
+        "temps": 84.60887341600028,
+        "generation": 396,
+        "cout_moyen": 407.71889999999996,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7534937389814711,
+        "taille": 20
+      },
+      {
+        "temps": 84.97293187500327,
+        "generation": 398,
+        "cout_moyen": 413.0889,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.726987185692889,
+        "taille": 20
+      },
+      {
+        "temps": 85.57866954102064,
+        "generation": 400,
+        "cout_moyen": 405.87665000000004,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7041245810044796,
+        "taille": 20
+      },
+      {
+        "temps": 85.91118566601654,
+        "generation": 402,
+        "cout_moyen": 391.26945,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6631726890750027,
+        "taille": 20
+      },
+      {
+        "temps": 86.18452325000544,
+        "generation": 403,
+        "cout_moyen": 390.2553,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6910687816680464,
+        "taille": 20
+      },
+      {
+        "temps": 86.68310187500902,
+        "generation": 405,
+        "cout_moyen": 409.2456,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6991549918544874,
+        "taille": 20
+      },
+      {
+        "temps": 87.32151879099547,
+        "generation": 407,
+        "cout_moyen": 377.2117,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6473322734255189,
+        "taille": 20
+      },
+      {
+        "temps": 87.62012733300799,
+        "generation": 408,
+        "cout_moyen": 392.8357,
+        "cout_min": 253.11599999999999,
+        "meilleur": 253.11599999999999,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6566366093605972,
+        "taille": 20
+      },
+      {
+        "temps": 87.96937508301926,
+        "generation": 410,
+        "cout_moyen": 382.92155,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7080990881352538,
+        "taille": 20
+      },
+      {
+        "temps": 88.31237345800037,
+        "generation": 412,
+        "cout_moyen": 363.71705,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6878067363206458,
+        "taille": 20
+      },
+      {
+        "temps": 88.679472000018,
+        "generation": 414,
+        "cout_moyen": 323.22020000000003,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.599412139918614,
+        "taille": 20
+      },
+      {
+        "temps": 89.0771689999965,
+        "generation": 417,
+        "cout_moyen": 324.68835,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5521818459628125,
+        "taille": 20
+      },
+      {
+        "temps": 89.37171925001894,
+        "generation": 419,
+        "cout_moyen": 327.28735,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5819962174386382,
+        "taille": 20
+      },
+      {
+        "temps": 89.7927462499938,
+        "generation": 421,
+        "cout_moyen": 392.2081,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7311044145742501,
+        "taille": 20
+      },
+      {
+        "temps": 90.10895600001095,
+        "generation": 423,
+        "cout_moyen": 400.15610000000004,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7430068462888555,
+        "taille": 20
+      },
+      {
+        "temps": 90.45564362499863,
+        "generation": 424,
+        "cout_moyen": 396.64105,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.768639832378611,
+        "taille": 20
+      },
+      {
+        "temps": 90.70855337500689,
+        "generation": 426,
+        "cout_moyen": 410.14685,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7767294067624899,
+        "taille": 20
+      },
+      {
+        "temps": 91.0463195409975,
+        "generation": 427,
+        "cout_moyen": 401.4636,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7775208129092236,
+        "taille": 20
+      },
+      {
+        "temps": 91.39627429100801,
+        "generation": 429,
+        "cout_moyen": 403.76570000000004,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8011296421488826,
+        "taille": 20
+      },
+      {
+        "temps": 91.74708462500712,
+        "generation": 431,
+        "cout_moyen": 432.19195,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7994634321403105,
+        "taille": 20
+      },
+      {
+        "temps": 92.03762191600981,
+        "generation": 433,
+        "cout_moyen": 432.72075000000007,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8199144927448835,
+        "taille": 20
+      },
+      {
+        "temps": 92.4511716249981,
+        "generation": 435,
+        "cout_moyen": 398.73290000000003,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7690569095555839,
+        "taille": 20
+      },
+      {
+        "temps": 92.77310495800339,
+        "generation": 437,
+        "cout_moyen": 394.8483,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7871844018202301,
+        "taille": 20
+      },
+      {
+        "temps": 93.13001195801189,
+        "generation": 438,
+        "cout_moyen": 410.75305,
+        "cout_min": 248.31300000000002,
+        "meilleur": 248.31300000000002,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8090598279996574,
+        "taille": 20
+      },
+      {
+        "temps": 93.55114895800943,
+        "generation": 440,
+        "cout_moyen": 384.6826,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6667201354271632,
+        "taille": 20
+      },
+      {
+        "temps": 93.96696966601303,
+        "generation": 442,
+        "cout_moyen": 338.3219,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5690184736106847,
+        "taille": 20
+      },
+      {
+        "temps": 94.45621691600536,
+        "generation": 444,
+        "cout_moyen": 348.87755000000004,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5613463009451998,
+        "taille": 20
+      },
+      {
+        "temps": 94.92861775000347,
+        "generation": 447,
+        "cout_moyen": 334.5672,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.4692388708987251,
+        "taille": 20
+      },
+      {
+        "temps": 95.34516595801688,
+        "generation": 449,
+        "cout_moyen": 309.19210000000004,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.41112982960923594,
+        "taille": 20
+      },
+      {
+        "temps": 95.87394212500658,
+        "generation": 451,
+        "cout_moyen": 369.82255,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5826215114758,
+        "taille": 20
+      },
+      {
+        "temps": 96.17994758300483,
+        "generation": 452,
+        "cout_moyen": 372.69735000000003,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5946141142568786,
+        "taille": 20
+      },
+      {
+        "temps": 96.59579650001251,
+        "generation": 454,
+        "cout_moyen": 371.09900000000005,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6420127322394327,
+        "taille": 20
+      },
+      {
+        "temps": 96.93167220801115,
+        "generation": 455,
+        "cout_moyen": 386.4605,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6713508628100959,
+        "taille": 20
+      },
+      {
+        "temps": 97.31757554100477,
+        "generation": 457,
+        "cout_moyen": 398.2097,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7207696164978203,
+        "taille": 20
+      },
+      {
+        "temps": 97.75537079101196,
+        "generation": 459,
+        "cout_moyen": 426.4785,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7517775157857617,
+        "taille": 20
+      },
+      {
+        "temps": 98.02992666600039,
+        "generation": 461,
+        "cout_moyen": 416.7811,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7662667501191046,
+        "taille": 20
+      },
+      {
+        "temps": 98.30956770799821,
+        "generation": 462,
+        "cout_moyen": 414.88035,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7405770606965297,
+        "taille": 20
+      },
+      {
+        "temps": 98.6441424160148,
+        "generation": 463,
+        "cout_moyen": 391.41835000000003,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6989649311024472,
+        "taille": 20
+      },
+      {
+        "temps": 99.08031254101661,
+        "generation": 465,
+        "cout_moyen": 403.14504999999997,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7246202187284243,
+        "taille": 20
+      },
+      {
+        "temps": 99.38444666599389,
+        "generation": 466,
+        "cout_moyen": 409.94125,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7322820649492068,
+        "taille": 20
+      },
+      {
+        "temps": 99.7034249160206,
+        "generation": 467,
+        "cout_moyen": 403.90365,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7042185044059347,
+        "taille": 20
+      },
+      {
+        "temps": 100.16013587501948,
+        "generation": 469,
+        "cout_moyen": 411.51445,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7244689339560888,
+        "taille": 20
+      },
+      {
+        "temps": 100.56011658301577,
+        "generation": 471,
+        "cout_moyen": 384.87325,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6702194607775401,
+        "taille": 20
+      },
+      {
+        "temps": 100.82349737500772,
+        "generation": 472,
+        "cout_moyen": 383.29,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6572286777935203,
+        "taille": 20
+      },
+      {
+        "temps": 101.17124945801334,
+        "generation": 473,
+        "cout_moyen": 397.0813,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6954858356933068,
+        "taille": 20
+      },
+      {
+        "temps": 101.61762429101509,
+        "generation": 475,
+        "cout_moyen": 384.85929999999996,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6910600265826711,
+        "taille": 20
+      },
+      {
+        "temps": 101.9558472080098,
+        "generation": 477,
+        "cout_moyen": 398.1435,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6578822171267819,
+        "taille": 20
+      },
+      {
+        "temps": 102.47843216601177,
+        "generation": 479,
+        "cout_moyen": 403.22605,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6770298788247009,
+        "taille": 20
+      },
+      {
+        "temps": 102.81720720801968,
+        "generation": 481,
+        "cout_moyen": 423.1656,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.727260956329941,
+        "taille": 20
+      },
+      {
+        "temps": 103.16601841599913,
+        "generation": 483,
+        "cout_moyen": 390.36645,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6894685574574374,
+        "taille": 20
+      },
+      {
+        "temps": 103.60145783299231,
+        "generation": 485,
+        "cout_moyen": 402.08285,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.727243443984353,
+        "taille": 20
+      },
+      {
+        "temps": 104.20434937500977,
+        "generation": 487,
+        "cout_moyen": 389.45015,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6805203184123961,
+        "taille": 20
+      },
+      {
+        "temps": 104.53515808301745,
+        "generation": 489,
+        "cout_moyen": 419.94579999999996,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.724870406054688,
+        "taille": 20
+      },
+      {
+        "temps": 104.94354366601328,
+        "generation": 491,
+        "cout_moyen": 397.1775,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6600186473731072,
+        "taille": 20
+      },
+      {
+        "temps": 105.33670166600496,
+        "generation": 493,
+        "cout_moyen": 378.10545,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6376339521416405,
+        "taille": 20
+      },
+      {
+        "temps": 105.6890306250134,
+        "generation": 495,
+        "cout_moyen": 382.2217,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6252163586830155,
+        "taille": 20
+      },
+      {
+        "temps": 105.94119008301641,
+        "generation": 496,
+        "cout_moyen": 362.49665,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6073987270504627,
+        "taille": 20
+      },
+      {
+        "temps": 106.30852037499426,
+        "generation": 498,
+        "cout_moyen": 393.17150000000004,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6467390272603356,
+        "taille": 20
+      },
+      {
+        "temps": 106.76151195800048,
+        "generation": 500,
+        "cout_moyen": 401.23725,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6452836608305048,
+        "taille": 20
+      },
+      {
+        "temps": 107.17253400001209,
+        "generation": 502,
+        "cout_moyen": 399.9084,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6611848004269321,
+        "taille": 20
+      },
+      {
+        "temps": 107.48185400001239,
+        "generation": 503,
+        "cout_moyen": 442.06135000000006,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7596833842953346,
+        "taille": 20
+      },
+      {
+        "temps": 107.96689391601831,
+        "generation": 505,
+        "cout_moyen": 387.83485,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5860807896689876,
+        "taille": 20
+      },
+      {
+        "temps": 108.42353575001471,
+        "generation": 507,
+        "cout_moyen": 387.5983,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6838323062645717,
+        "taille": 20
+      },
+      {
+        "temps": 108.73122870799853,
+        "generation": 508,
+        "cout_moyen": 392.3734,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6886288766219316,
+        "taille": 20
+      },
+      {
+        "temps": 109.12628170801327,
+        "generation": 510,
+        "cout_moyen": 403.0641,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7116521842578778,
+        "taille": 20
+      },
+      {
+        "temps": 109.48970416601514,
+        "generation": 512,
+        "cout_moyen": 383.053,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7057472301251151,
+        "taille": 20
+      },
+      {
+        "temps": 109.74951941601466,
+        "generation": 513,
+        "cout_moyen": 392.66995000000003,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7307973305281384,
+        "taille": 20
+      },
+      {
+        "temps": 110.22106066599372,
+        "generation": 515,
+        "cout_moyen": 388.24145,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6144447165997878,
+        "taille": 20
+      },
+      {
+        "temps": 110.64255495800171,
+        "generation": 517,
+        "cout_moyen": 444.4568499999999,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8131917137534392,
+        "taille": 20
+      },
+      {
+        "temps": 110.93212762501207,
+        "generation": 519,
+        "cout_moyen": 425.40625,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.805313485235045,
+        "taille": 20
+      },
+      {
+        "temps": 111.19689525000285,
+        "generation": 521,
+        "cout_moyen": 428.38495,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7906264364316902,
+        "taille": 20
+      },
+      {
+        "temps": 111.4732606660109,
+        "generation": 523,
+        "cout_moyen": 394.74905,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7055939754178902,
+        "taille": 20
+      },
+      {
+        "temps": 111.83888666599523,
+        "generation": 525,
+        "cout_moyen": 410.8486,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7011793331200316,
+        "taille": 20
+      },
+      {
+        "temps": 112.14868533299887,
+        "generation": 527,
+        "cout_moyen": 428.437,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7166142065069747,
+        "taille": 20
+      },
+      {
+        "temps": 112.63387466600398,
+        "generation": 529,
+        "cout_moyen": 395.11510000000004,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6216982325105447,
+        "taille": 20
+      },
+      {
+        "temps": 112.92759770801058,
+        "generation": 530,
+        "cout_moyen": 385.95035,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6232988810708764,
+        "taille": 20
+      },
+      {
+        "temps": 113.46862033300567,
+        "generation": 532,
+        "cout_moyen": 395.99065,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6603253420669566,
+        "taille": 20
+      },
+      {
+        "temps": 113.75210387501284,
+        "generation": 534,
+        "cout_moyen": 388.1346,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6884694020462183,
+        "taille": 20
+      },
+      {
+        "temps": 114.09542675002012,
+        "generation": 536,
+        "cout_moyen": 400.67199999999997,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7408277631779433,
+        "taille": 20
+      },
+      {
+        "temps": 114.3795173749968,
+        "generation": 537,
+        "cout_moyen": 394.62995,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6645585101899321,
+        "taille": 20
+      },
+      {
+        "temps": 114.6699105000007,
+        "generation": 538,
+        "cout_moyen": 396.84614999999997,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6616832322502568,
+        "taille": 20
+      },
+      {
+        "temps": 115.05519741601893,
+        "generation": 540,
+        "cout_moyen": 426.87585,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7200495997788623,
+        "taille": 20
+      },
+      {
+        "temps": 115.36293216599734,
+        "generation": 542,
+        "cout_moyen": 427.91805000000005,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7572752828856427,
+        "taille": 20
+      },
+      {
+        "temps": 115.64578170800814,
+        "generation": 543,
+        "cout_moyen": 425.58265,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7809053624254849,
+        "taille": 20
+      },
+      {
+        "temps": 116.02829820799525,
+        "generation": 545,
+        "cout_moyen": 418.2512,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7208464545966288,
+        "taille": 20
+      },
+      {
+        "temps": 116.29418100000476,
+        "generation": 546,
+        "cout_moyen": 406.5419,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7302209467851208,
+        "taille": 20
+      },
+      {
+        "temps": 116.71885937501793,
+        "generation": 548,
+        "cout_moyen": 395.01959999999997,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7254010537907805,
+        "taille": 20
+      },
+      {
+        "temps": 117.14180983300321,
+        "generation": 550,
+        "cout_moyen": 393.00284999999997,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6678114778272112,
+        "taille": 20
+      },
+      {
+        "temps": 117.60750974999974,
+        "generation": 552,
+        "cout_moyen": 404.0113,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6699179983224017,
+        "taille": 20
+      },
+      {
+        "temps": 118.01263375001145,
+        "generation": 554,
+        "cout_moyen": 376.89605,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6026146662746646,
+        "taille": 20
+      },
+      {
+        "temps": 118.6216505409975,
+        "generation": 556,
+        "cout_moyen": 389.21515,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.644590783741081,
+        "taille": 20
+      },
+      {
+        "temps": 118.91585741599556,
+        "generation": 558,
+        "cout_moyen": 381.3974,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.713201132944555,
+        "taille": 20
+      },
+      {
+        "temps": 119.39690704099485,
+        "generation": 560,
+        "cout_moyen": 400.38555,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7025126052399149,
+        "taille": 20
+      },
+      {
+        "temps": 119.6790013750142,
+        "generation": 562,
+        "cout_moyen": 387.1898,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6587700913448529,
+        "taille": 20
+      },
+      {
+        "temps": 120.15671429102076,
+        "generation": 564,
+        "cout_moyen": 403.7259,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7045303467436009,
+        "taille": 20
+      },
+      {
+        "temps": 120.56507495799451,
+        "generation": 566,
+        "cout_moyen": 415.3433,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7118796989364105,
+        "taille": 20
+      },
+      {
+        "temps": 120.94192120799562,
+        "generation": 568,
+        "cout_moyen": 392.5597,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6275401875393121,
+        "taille": 20
+      },
+      {
+        "temps": 121.51662325000507,
+        "generation": 570,
+        "cout_moyen": 401.6454,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6243234134260478,
+        "taille": 20
+      },
+      {
+        "temps": 121.7779704160057,
+        "generation": 571,
+        "cout_moyen": 395.40035,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6640908574077845,
+        "taille": 20
+      },
+      {
+        "temps": 122.09743600001093,
+        "generation": 573,
+        "cout_moyen": 384.63465,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.692085070540434,
+        "taille": 20
+      },
+      {
+        "temps": 122.37613975000568,
+        "generation": 575,
+        "cout_moyen": 410.683,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7815322487178221,
+        "taille": 20
+      },
+      {
+        "temps": 122.83958712499589,
+        "generation": 577,
+        "cout_moyen": 409.97275,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7335159019091266,
+        "taille": 20
+      },
+      {
+        "temps": 123.47055312499288,
+        "generation": 579,
+        "cout_moyen": 429.6588,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.753397347971241,
+        "taille": 20
+      },
+      {
+        "temps": 123.76973791600903,
+        "generation": 581,
+        "cout_moyen": 396.7875,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7198190690413334,
+        "taille": 20
+      },
+      {
+        "temps": 124.16872849999345,
+        "generation": 583,
+        "cout_moyen": 414.60765000000004,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7193216310352086,
+        "taille": 20
+      },
+      {
+        "temps": 124.46662095800275,
+        "generation": 584,
+        "cout_moyen": 430.6295,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7774045325276991,
+        "taille": 20
+      },
+      {
+        "temps": 124.73626441601664,
+        "generation": 585,
+        "cout_moyen": 428.4686,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7828233265741666,
+        "taille": 20
+      },
+      {
+        "temps": 125.04639900001348,
+        "generation": 586,
+        "cout_moyen": 413.93320000000006,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7216264945331647,
+        "taille": 20
+      },
+      {
+        "temps": 125.29884945802041,
+        "generation": 587,
+        "cout_moyen": 426.76535,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7345187991696162,
+        "taille": 20
+      },
+      {
+        "temps": 125.61085404100595,
+        "generation": 588,
+        "cout_moyen": 428.437,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7511251069502205,
+        "taille": 20
+      },
+      {
+        "temps": 125.92089029101771,
+        "generation": 590,
+        "cout_moyen": 378.56765,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6560910483175741,
+        "taille": 20
+      },
+      {
+        "temps": 126.21561004102114,
+        "generation": 591,
+        "cout_moyen": 381.1342,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6410905487657332,
+        "taille": 20
+      },
+      {
+        "temps": 126.70310208300361,
+        "generation": 593,
+        "cout_moyen": 404.09145,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6862455942429879,
+        "taille": 20
+      },
+      {
+        "temps": 127.03211041601025,
+        "generation": 594,
+        "cout_moyen": 407.09555,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6963528339047174,
+        "taille": 20
+      },
+      {
+        "temps": 127.31537258301978,
+        "generation": 595,
+        "cout_moyen": 407.4942,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6486490313605012,
+        "taille": 20
+      },
+      {
+        "temps": 127.83361504101777,
+        "generation": 597,
+        "cout_moyen": 411.2131499999999,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6599935384448594,
+        "taille": 20
+      },
+      {
+        "temps": 128.11226645801798,
+        "generation": 598,
+        "cout_moyen": 400.38455,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6798020543164349,
+        "taille": 20
+      },
+      {
+        "temps": 128.5004150000168,
+        "generation": 600,
+        "cout_moyen": 385.59875,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6191201616083296,
+        "taille": 20
+      },
+      {
+        "temps": 128.7543261249957,
+        "generation": 601,
+        "cout_moyen": 399.15645,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.689805053567221,
+        "taille": 20
+      },
+      {
+        "temps": 129.07344812501105,
+        "generation": 603,
+        "cout_moyen": 412.038,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7418447973308689,
+        "taille": 20
+      },
+      {
+        "temps": 129.51057570800185,
+        "generation": 605,
+        "cout_moyen": 391.42595,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6707545882255519,
+        "taille": 20
+      },
+      {
+        "temps": 129.84548716599238,
+        "generation": 606,
+        "cout_moyen": 419.5784500000001,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7497754064395267,
+        "taille": 20
+      },
+      {
+        "temps": 130.21536533301696,
+        "generation": 608,
+        "cout_moyen": 401.9796,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7057110762875928,
+        "taille": 20
+      },
+      {
+        "temps": 130.49361612499342,
+        "generation": 610,
+        "cout_moyen": 411.48280000000005,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7408308156139658,
+        "taille": 20
+      },
+      {
+        "temps": 130.8930473329965,
+        "generation": 612,
+        "cout_moyen": 403.31135,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7084667616751634,
+        "taille": 20
+      },
+      {
+        "temps": 131.18326791599975,
+        "generation": 613,
+        "cout_moyen": 399.7176,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7233443915523429,
+        "taille": 20
+      },
+      {
+        "temps": 131.578852458013,
+        "generation": 615,
+        "cout_moyen": 382.44465,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6708814376472982,
+        "taille": 20
+      },
+      {
+        "temps": 131.90802083301242,
+        "generation": 617,
+        "cout_moyen": 393.0198,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6879532533528717,
+        "taille": 20
+      },
+      {
+        "temps": 132.16884583301726,
+        "generation": 618,
+        "cout_moyen": 402.05280000000005,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7050092605030692,
+        "taille": 20
+      },
+      {
+        "temps": 132.65357395799947,
+        "generation": 620,
+        "cout_moyen": 385.5724,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6552310981384013,
+        "taille": 20
+      },
+      {
+        "temps": 132.92100166599266,
+        "generation": 621,
+        "cout_moyen": 380.26955000000004,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6236826136145301,
+        "taille": 20
+      },
+      {
+        "temps": 133.42107995800325,
+        "generation": 623,
+        "cout_moyen": 394.6843,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.661687915903398,
+        "taille": 20
+      },
+      {
+        "temps": 133.72803404100705,
+        "generation": 624,
+        "cout_moyen": 394.33655000000005,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6962590828041983,
+        "taille": 20
+      },
+      {
+        "temps": 134.08072150000953,
+        "generation": 626,
+        "cout_moyen": 402.7045,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7475437563135444,
+        "taille": 20
+      },
+      {
+        "temps": 134.5937901250145,
+        "generation": 628,
+        "cout_moyen": 416.90845,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6954161297136302,
+        "taille": 20
+      },
+      {
+        "temps": 135.09186924999813,
+        "generation": 630,
+        "cout_moyen": 407.43475,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6684470225319138,
+        "taille": 20
+      },
+      {
+        "temps": 135.4117207500094,
+        "generation": 632,
+        "cout_moyen": 400.3311,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6929321825374207,
+        "taille": 20
+      },
+      {
+        "temps": 135.90052420800203,
+        "generation": 634,
+        "cout_moyen": 401.26855,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.685568382935025,
+        "taille": 20
+      },
+      {
+        "temps": 136.3243213329988,
+        "generation": 636,
+        "cout_moyen": 404.10614999999996,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6820980415090973,
+        "taille": 20
+      },
+      {
+        "temps": 136.58910066599492,
+        "generation": 638,
+        "cout_moyen": 411.33824999999996,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7075734465911832,
+        "taille": 20
+      },
+      {
+        "temps": 136.8964092080132,
+        "generation": 640,
+        "cout_moyen": 392.48315,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6535103269037134,
+        "taille": 20
+      },
+      {
+        "temps": 137.24085320800077,
+        "generation": 641,
+        "cout_moyen": 410.48949999999996,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7668384259612264,
+        "taille": 20
+      },
+      {
+        "temps": 137.7998245409981,
+        "generation": 643,
+        "cout_moyen": 410.37475000000006,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7795984078787963,
+        "taille": 20
+      },
+      {
+        "temps": 138.19689424999524,
+        "generation": 645,
+        "cout_moyen": 407.7214,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7572539621023805,
+        "taille": 20
+      },
+      {
+        "temps": 138.626483,
+        "generation": 647,
+        "cout_moyen": 405.3274,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7114257227881116,
+        "taille": 20
+      },
+      {
+        "temps": 138.90605849999702,
+        "generation": 649,
+        "cout_moyen": 399.00210000000004,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7226818889858243,
+        "taille": 20
+      },
+      {
+        "temps": 139.1662579580152,
+        "generation": 650,
+        "cout_moyen": 411.35225,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7093904633269307,
+        "taille": 20
+      },
+      {
+        "temps": 139.48539091600105,
+        "generation": 652,
+        "cout_moyen": 425.11035000000004,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8020316364000342,
+        "taille": 20
+      },
+      {
+        "temps": 139.81774979099282,
+        "generation": 654,
+        "cout_moyen": 402.1745,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7648653702995303,
+        "taille": 20
+      },
+      {
+        "temps": 140.2002792910207,
+        "generation": 656,
+        "cout_moyen": 402.0239,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7219889751733004,
+        "taille": 20
+      },
+      {
+        "temps": 140.5580713750096,
+        "generation": 658,
+        "cout_moyen": 424.0241,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7398383345175822,
+        "taille": 20
+      },
+      {
+        "temps": 140.83002245801617,
+        "generation": 660,
+        "cout_moyen": 419.89219999999995,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8114174712281439,
+        "taille": 20
+      },
+      {
+        "temps": 141.22589875000995,
+        "generation": 662,
+        "cout_moyen": 399.69034999999997,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.719504169142942,
+        "taille": 20
+      },
+      {
+        "temps": 141.596568708017,
+        "generation": 663,
+        "cout_moyen": 416.40870000000007,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7459825730647905,
+        "taille": 20
+      },
+      {
+        "temps": 142.04514662499423,
+        "generation": 665,
+        "cout_moyen": 415.92075000000006,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7754539576813763,
+        "taille": 20
+      },
+      {
+        "temps": 142.36329754101462,
+        "generation": 666,
+        "cout_moyen": 379.64685,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6472555361454454,
+        "taille": 20
+      },
+      {
+        "temps": 142.73703208300867,
+        "generation": 668,
+        "cout_moyen": 382.20225,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6725897734133228,
+        "taille": 20
+      },
+      {
+        "temps": 143.10608200001298,
+        "generation": 670,
+        "cout_moyen": 411.71130000000005,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.770533362245256,
+        "taille": 20
+      },
+      {
+        "temps": 143.54994058300508,
+        "generation": 672,
+        "cout_moyen": 420.188,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7405841777189545,
+        "taille": 20
+      },
+      {
+        "temps": 143.8222114579985,
+        "generation": 673,
+        "cout_moyen": 439.08500000000004,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8159927309626571,
+        "taille": 20
+      },
+      {
+        "temps": 144.2359197080077,
+        "generation": 675,
+        "cout_moyen": 404.11595,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7384918147347567,
+        "taille": 20
+      },
+      {
+        "temps": 144.52613716601627,
+        "generation": 677,
+        "cout_moyen": 405.60075,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7266546760369633,
+        "taille": 20
+      },
+      {
+        "temps": 144.98733375000302,
+        "generation": 679,
+        "cout_moyen": 418.0039,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7401308468905644,
+        "taille": 20
+      },
+      {
+        "temps": 145.2423735409975,
+        "generation": 680,
+        "cout_moyen": 430.32755,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.728697325544817,
+        "taille": 20
+      },
+      {
+        "temps": 145.667709500005,
+        "generation": 682,
+        "cout_moyen": 401.069,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7175967697346002,
+        "taille": 20
+      },
+      {
+        "temps": 145.96364070801064,
+        "generation": 683,
+        "cout_moyen": 391.5369,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6804564023400167,
+        "taille": 20
+      },
+      {
+        "temps": 146.31889012499596,
+        "generation": 685,
+        "cout_moyen": 384.4696,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6457845733989741,
+        "taille": 20
+      },
+      {
+        "temps": 146.86380791600095,
+        "generation": 687,
+        "cout_moyen": 396.33970000000005,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7029653125059996,
+        "taille": 20
+      },
+      {
+        "temps": 147.12199091599905,
+        "generation": 688,
+        "cout_moyen": 417.9969,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6953505678044765,
+        "taille": 20
+      },
+      {
+        "temps": 147.47386050000205,
+        "generation": 690,
+        "cout_moyen": 397.46310000000005,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.676916271238139,
+        "taille": 20
+      },
+      {
+        "temps": 147.9479827079922,
+        "generation": 692,
+        "cout_moyen": 409.16179999999997,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6797608196627997,
+        "taille": 20
+      },
+      {
+        "temps": 148.30140666599618,
+        "generation": 694,
+        "cout_moyen": 360.88115000000005,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5704643803602792,
+        "taille": 20
+      },
+      {
+        "temps": 148.68590545799816,
+        "generation": 696,
+        "cout_moyen": 391.47180000000003,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6779161130656439,
+        "taille": 20
+      },
+      {
+        "temps": 149.01837325000088,
+        "generation": 697,
+        "cout_moyen": 395.3642,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6528119908741643,
+        "taille": 20
+      },
+      {
+        "temps": 149.31254075001925,
+        "generation": 699,
+        "cout_moyen": 392.76465,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6760120606336348,
+        "taille": 20
+      },
+      {
+        "temps": 149.6536538329965,
+        "generation": 701,
+        "cout_moyen": 384.79935,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6264881484279627,
+        "taille": 20
+      },
+      {
+        "temps": 150.05287629101076,
+        "generation": 703,
+        "cout_moyen": 389.28485,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6058980349225148,
+        "taille": 20
+      },
+      {
+        "temps": 150.3121305410168,
+        "generation": 704,
+        "cout_moyen": 379.01715,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6207252577226727,
+        "taille": 20
+      },
+      {
+        "temps": 150.97752662500716,
+        "generation": 706,
+        "cout_moyen": 421.45140000000004,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.789532900814718,
+        "taille": 20
+      },
+      {
+        "temps": 151.25325954100117,
+        "generation": 707,
+        "cout_moyen": 406.85395,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7324415138378491,
+        "taille": 20
+      },
+      {
+        "temps": 151.61824033301673,
+        "generation": 709,
+        "cout_moyen": 424.9539,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7890573095800448,
+        "taille": 20
+      },
+      {
+        "temps": 152.08994458301459,
+        "generation": 711,
+        "cout_moyen": 405.13784999999996,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7364728209203236,
+        "taille": 20
+      },
+      {
+        "temps": 152.53999945800751,
+        "generation": 713,
+        "cout_moyen": 408.9678,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.75933050340646,
+        "taille": 20
+      },
+      {
+        "temps": 152.8129014580045,
+        "generation": 714,
+        "cout_moyen": 411.80060000000003,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7641766462280385,
+        "taille": 20
+      },
+      {
+        "temps": 153.15289187501185,
+        "generation": 715,
+        "cout_moyen": 419.8492,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7308767442149604,
+        "taille": 20
+      },
+      {
+        "temps": 153.52746491599828,
+        "generation": 716,
+        "cout_moyen": 398.02255,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6634496100064543,
+        "taille": 20
+      },
+      {
+        "temps": 154.05993279101676,
+        "generation": 718,
+        "cout_moyen": 411.63945,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7299236908900888,
+        "taille": 20
+      },
+      {
+        "temps": 154.45039783301763,
+        "generation": 720,
+        "cout_moyen": 400.16115,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6787902725209248,
+        "taille": 20
+      },
+      {
+        "temps": 154.9239016250067,
+        "generation": 722,
+        "cout_moyen": 407.06885,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6870223108169933,
+        "taille": 20
+      },
+      {
+        "temps": 155.34278487501433,
+        "generation": 723,
+        "cout_moyen": 389.7702,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6763034531776346,
+        "taille": 20
+      },
+      {
+        "temps": 155.64346458300133,
+        "generation": 724,
+        "cout_moyen": 392.43375000000003,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7090780854655913,
+        "taille": 20
+      },
+      {
+        "temps": 155.9574223330128,
+        "generation": 725,
+        "cout_moyen": 401.79274999999996,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7394407027514278,
+        "taille": 20
+      },
+      {
+        "temps": 156.3510912079946,
+        "generation": 727,
+        "cout_moyen": 400.23305,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6956216347543105,
+        "taille": 20
+      },
+      {
+        "temps": 156.71420474999468,
+        "generation": 729,
+        "cout_moyen": 421.38620000000003,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7104462542120197,
+        "taille": 20
+      },
+      {
+        "temps": 157.01582870801212,
+        "generation": 731,
+        "cout_moyen": 420.57354999999995,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7753604808191991,
+        "taille": 20
+      },
+      {
+        "temps": 157.337294958008,
+        "generation": 733,
+        "cout_moyen": 424.93050000000005,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.753358087550819,
+        "taille": 20
+      },
+      {
+        "temps": 157.7373179999995,
+        "generation": 735,
+        "cout_moyen": 435.7043,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7444676162218901,
+        "taille": 20
+      },
+      {
+        "temps": 158.19962462500553,
+        "generation": 737,
+        "cout_moyen": 404.3665,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7275235578557051,
+        "taille": 20
+      },
+      {
+        "temps": 158.60087141601252,
+        "generation": 739,
+        "cout_moyen": 393.27815,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6741736236720631,
+        "taille": 20
+      },
+      {
+        "temps": 158.98153124999953,
+        "generation": 740,
+        "cout_moyen": 383.5149,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.647743548042403,
+        "taille": 20
+      },
+      {
+        "temps": 159.65227016599965,
+        "generation": 742,
+        "cout_moyen": 370.6944,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5720519756692823,
+        "taille": 20
+      },
+      {
+        "temps": 159.95985316601582,
+        "generation": 743,
+        "cout_moyen": 399.7658,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6503944366490554,
+        "taille": 20
+      },
+      {
+        "temps": 160.44688358300482,
+        "generation": 745,
+        "cout_moyen": 381.27094999999997,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.5946039003837243,
+        "taille": 20
+      },
+      {
+        "temps": 160.7406044160016,
+        "generation": 747,
+        "cout_moyen": 400.6872,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7142833311446716,
+        "taille": 20
+      },
+      {
+        "temps": 161.06987654100521,
+        "generation": 748,
+        "cout_moyen": 406.61365,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7550302966531254,
+        "taille": 20
+      },
+      {
+        "temps": 161.47436062499764,
+        "generation": 750,
+        "cout_moyen": 408.76550000000003,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7824875619808268,
+        "taille": 20
+      },
+      {
+        "temps": 161.92311729100766,
+        "generation": 752,
+        "cout_moyen": 417.27495,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7427663996809922,
+        "taille": 20
+      },
+      {
+        "temps": 162.31060812500073,
+        "generation": 754,
+        "cout_moyen": 395.56804999999997,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6679869746769792,
+        "taille": 20
+      },
+      {
+        "temps": 162.57909283300978,
+        "generation": 755,
+        "cout_moyen": 411.88734999999997,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6959197424524618,
+        "taille": 20
+      },
+      {
+        "temps": 162.86547712501488,
+        "generation": 756,
+        "cout_moyen": 403.65954999999997,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6871494529431224,
+        "taille": 20
+      },
+      {
+        "temps": 163.44332150000264,
+        "generation": 758,
+        "cout_moyen": 415.32585,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.726484461346725,
+        "taille": 20
+      },
+      {
+        "temps": 163.86004674999276,
+        "generation": 760,
+        "cout_moyen": 422.0167,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7401551785385843,
+        "taille": 20
+      },
+      {
+        "temps": 164.2644992500136,
+        "generation": 762,
+        "cout_moyen": 416.28395,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7683637574203286,
+        "taille": 20
+      },
+      {
+        "temps": 164.5857972910162,
+        "generation": 764,
+        "cout_moyen": 403.8837,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7186703375639172,
+        "taille": 20
+      },
+      {
+        "temps": 164.9367038750206,
+        "generation": 766,
+        "cout_moyen": 418.3201,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7731959134343617,
+        "taille": 20
+      },
+      {
+        "temps": 165.47920895801508,
+        "generation": 768,
+        "cout_moyen": 430.4249,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8040739515190486,
+        "taille": 20
+      },
+      {
+        "temps": 166.0128738330095,
+        "generation": 770,
+        "cout_moyen": 391.96375,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6591150452379513,
+        "taille": 20
+      },
+      {
+        "temps": 166.28999975000625,
+        "generation": 771,
+        "cout_moyen": 400.45095000000003,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6980935327245587,
+        "taille": 20
+      },
+      {
+        "temps": 166.69080516599934,
+        "generation": 773,
+        "cout_moyen": 444.21225000000004,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8023389837499459,
+        "taille": 20
+      },
+      {
+        "temps": 166.94828683300875,
+        "generation": 775,
+        "cout_moyen": 424.38845000000003,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7742846973323625,
+        "taille": 20
+      },
+      {
+        "temps": 167.44749716599472,
+        "generation": 777,
+        "cout_moyen": 399.29715,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6813661846144723,
+        "taille": 20
+      },
+      {
+        "temps": 167.91614829099854,
+        "generation": 779,
+        "cout_moyen": 418.20405,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7244352925729781,
+        "taille": 20
+      },
+      {
+        "temps": 168.33629779101466,
+        "generation": 781,
+        "cout_moyen": 402.4629,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6913938378440442,
+        "taille": 20
+      },
+      {
+        "temps": 168.61927008299972,
+        "generation": 782,
+        "cout_moyen": 432.20734999999996,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7341410162138267,
+        "taille": 20
+      },
+      {
+        "temps": 169.10234291601228,
+        "generation": 784,
+        "cout_moyen": 409.06425,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.703498797405355,
+        "taille": 20
+      },
+      {
+        "temps": 169.39543183299247,
+        "generation": 785,
+        "cout_moyen": 420.40344999999996,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7194607161580786,
+        "taille": 20
+      },
+      {
+        "temps": 169.66688150001573,
+        "generation": 786,
+        "cout_moyen": 419.3098,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7467265566135158,
+        "taille": 20
+      },
+      {
+        "temps": 170.06368141600979,
+        "generation": 788,
+        "cout_moyen": 418.54865,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.748171032739785,
+        "taille": 20
+      },
+      {
+        "temps": 170.43764420799562,
+        "generation": 790,
+        "cout_moyen": 397.1627,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6661876306078588,
+        "taille": 20
+      },
+      {
+        "temps": 170.75616358302068,
+        "generation": 792,
+        "cout_moyen": 391.78415,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6531074284901353,
+        "taille": 20
+      },
+      {
+        "temps": 171.13357995799743,
+        "generation": 793,
+        "cout_moyen": 400.46725000000004,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6638898445151427,
+        "taille": 20
+      },
+      {
+        "temps": 171.42697412500274,
+        "generation": 794,
+        "cout_moyen": 398.70935,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6541992104203641,
+        "taille": 20
+      },
+      {
+        "temps": 171.6927671250014,
+        "generation": 795,
+        "cout_moyen": 401.11315,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6673615363274843,
+        "taille": 20
+      },
+      {
+        "temps": 172.0868383750203,
+        "generation": 797,
+        "cout_moyen": 377.17470000000003,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6910452683463079,
+        "taille": 20
+      },
+      {
+        "temps": 172.3461471660121,
+        "generation": 799,
+        "cout_moyen": 403.24385,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7187177849741424,
+        "taille": 20
+      },
+      {
+        "temps": 172.71005154101294,
+        "generation": 800,
+        "cout_moyen": 390.92195000000004,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6710605766074841,
+        "taille": 20
+      },
+      {
+        "temps": 172.991138375015,
+        "generation": 801,
+        "cout_moyen": 390.264,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.673305991501859,
+        "taille": 20
+      },
+      {
+        "temps": 173.26786879100837,
+        "generation": 802,
+        "cout_moyen": 410.88415000000003,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7250232604167122,
+        "taille": 20
+      },
+      {
+        "temps": 173.67694304100587,
+        "generation": 804,
+        "cout_moyen": 418.8111,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.771996993869433,
+        "taille": 20
+      },
+      {
+        "temps": 173.96192162501393,
+        "generation": 806,
+        "cout_moyen": 431.77004999999997,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.8214430830383715,
+        "taille": 20
+      },
+      {
+        "temps": 174.3835419160023,
+        "generation": 808,
+        "cout_moyen": 417.62475000000006,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7609480425350644,
+        "taille": 20
+      },
+      {
+        "temps": 174.8770201250154,
+        "generation": 810,
+        "cout_moyen": 408.30595000000005,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7506307150003705,
+        "taille": 20
+      },
+      {
+        "temps": 175.32682954100892,
+        "generation": 812,
+        "cout_moyen": 400.6707,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7498624649630999,
+        "taille": 20
+      },
+      {
+        "temps": 175.69857358300942,
+        "generation": 813,
+        "cout_moyen": 389.0593,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.689217927715987,
+        "taille": 20
+      },
+      {
+        "temps": 176.0387918750057,
+        "generation": 815,
+        "cout_moyen": 392.2936,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6887434174696367,
+        "taille": 20
+      },
+      {
+        "temps": 176.43545129100676,
+        "generation": 817,
+        "cout_moyen": 369.7495,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6022146864470308,
+        "taille": 20
+      },
+      {
+        "temps": 176.71390391601017,
+        "generation": 818,
+        "cout_moyen": 379.40365,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.6586290818134352,
+        "taille": 20
+      },
+      {
+        "temps": 177.1046822500066,
+        "generation": 820,
+        "cout_moyen": 429.54724999999996,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.788809553488268,
+        "taille": 20
+      },
+      {
+        "temps": 177.62940241600154,
+        "generation": 822,
+        "cout_moyen": 420.96414999999996,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7838155422986924,
+        "taille": 20
+      },
+      {
+        "temps": 177.8976500830031,
+        "generation": 823,
+        "cout_moyen": 425.8697,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7998110426773477,
+        "taille": 20
+      },
+      {
+        "temps": 178.32310229100403,
+        "generation": 825,
+        "cout_moyen": 396.42179999999996,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7544927023318435,
+        "taille": 20
+      },
+      {
+        "temps": 178.6597267500183,
+        "generation": 826,
+        "cout_moyen": 394.0,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7387522581436221,
+        "taille": 20
+      },
+      {
+        "temps": 178.924354125018,
+        "generation": 827,
+        "cout_moyen": 421.121,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7639320607335544,
+        "taille": 20
+      },
+      {
+        "temps": 179.3619480410125,
+        "generation": 829,
+        "cout_moyen": 409.2564,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7847248756282262,
+        "taille": 20
+      },
+      {
+        "temps": 179.83312420800212,
+        "generation": 831,
+        "cout_moyen": 433.37335,
+        "cout_min": 248.163,
+        "meilleur": 248.163,
+        "fraction_unique": 1.0,
+        "diversite_arcs": 0.7938577647271504,
+        "taille": 20
+      }
+    ]
+  },
+  "solution": {
+    "A1": [
+      "I17",
+      "I5",
+      "I20",
+      "I25",
+      "I16",
+      "I2",
+      "I27",
+      "I10"
+    ],
+    "A2": [
+      "I22",
+      "I30",
+      "I4",
+      "I8",
+      "I11",
+      "I14"
+    ],
+    "A3": [
+      "I9",
+      "I1",
+      "I24",
+      "I15",
+      "I7",
+      "I26"
+    ],
+    "A4": [
+      "I12",
+      "I28",
+      "I18",
+      "I3",
+      "I29",
+      "I21"
+    ],
+    "A5": [
+      "I19",
+      "I13",
+      "I23"
+    ],
+    "reportees": [
+      "I6"
+    ]
+  },
+  "distance_km": 217.589,
+  "verification": "OK"
+}
