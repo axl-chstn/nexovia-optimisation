@@ -20,13 +20,14 @@ def charger(nom, depart='commun'):
     # Lit l'instance et choisit la solution de départ :
     #  - 'commun' : le S0 commun du groupe (S0_communs.json)
     #  - 'historique-pls' : le départ utilisé pour les archives PLS du rapport
-    #  - 'exploratoire' : le glouton recalculé, comme pendant les réglages
+    #  - 'exploratoire' : départ historique N50 sauvegardé ; glouton recalculé ailleurs
     N = lire_instance(str(ROOT / 'donnees' / nom))
     preparer_instance(N)
     if depart == 'historique-pls':
         S0 = json.loads((ROOT / 'resultats/multiobjectif' / f'PLS_{nom}.json').read_text())['solution_initiale']
     elif depart == 'exploratoire':
-        S0 = heuristique_gloutonne(N)
+        historiques = json.loads((ROOT / 'S0_exploratoires.json').read_text())
+        S0 = historiques[nom] if nom in historiques else heuristique_gloutonne(N)
     else:
         S0 = json.loads((ROOT / 'S0_communs.json').read_text())[nom]
     if not est_realisable(S0, N):

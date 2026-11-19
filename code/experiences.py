@@ -44,8 +44,8 @@ def modele(nom):
         # N200 : le S0 commun du groupe, le même que dans la campagne principale
         S = json.loads((ROOT / 'S0_communs.json').read_text())['N200']
     else:
-        # N50 : le glouton recalculé, comme pour les réglages exploratoires (voir lancer.py)
-        S = heuristique_gloutonne(N)
+        # N50 : départ historique figé, indépendant des départages de pandas.
+        S = json.loads((ROOT / 'S0_exploratoires.json').read_text())[nom]
     assert est_realisable(S, N)
     return N, S
 

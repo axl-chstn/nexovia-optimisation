@@ -10,6 +10,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "code"))
 from lancer import charger, NOMS
+from experiences import modele
 from socle import f, est_realisable
 from genetique_renouvellement import algorithme_genetique
 from multiobjectif import domine
@@ -29,6 +30,9 @@ class NexoviaTests(unittest.TestCase):
     def test_departs_exploratoire_et_commun_distincts(self):
         N, S = charger("N50", "exploratoire")
         self.assertAlmostEqual(f(S, N), 614.036, places=3)
+        N_etude, S_etude = modele("N50")
+        self.assertEqual(S_etude, S)
+        self.assertAlmostEqual(f(S_etude, N_etude), 614.036, places=3)
         N, S = charger("N50")
         self.assertAlmostEqual(f(S, N), 687.919, places=3)
 

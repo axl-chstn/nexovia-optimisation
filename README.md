@@ -125,7 +125,7 @@ Les scripts `campagne_recuit.py`, `comparer_P.py` et `sensibilite_diversite.py` 
 | `code/genetique_renouvellement.py` | Variante paramétrable pour l’étude N50 |
 | `code/multiobjectif.py`, `code/epsilon_contrainte.py` | PLS et ε-contrainte |
 | `code/exact_N0.py` | Résolution exacte de la petite instance |
-| `donnees/`, `S0_communs.json` | Neuf instances CSV et départs communs du groupe |
+| `donnees/`, `S0_communs.json`, `S0_exploratoires.json` | Neuf instances CSV, départs communs et départ historique N50 |
 | `resultats/` | 45 sorties AG, 9 archives PLS, tableaux de sensibilité et front ε fourni |
 | `resultats_apports/` | 25 sorties : AG long, recuit témoin et renouvellement N50 |
 | `docs/` | Rapport final, complément du groupe, compte rendu des apports et graphiques |
@@ -135,7 +135,7 @@ Le [rapport final](docs/Rapport_final_Nexovia.pdf) présente la comparaison glob
 
 ## Protocole et limites
 
-Les comparaisons finales partent de **`S0_communs.json`**, alors que l’étude exploratoire du renouvellement N50 reprend le glouton historique de coût **614,04**. Les archives PLS conservent leur départ historique. Ces expériences ne doivent pas être mélangées sans vérifier leur protocole.
+Les comparaisons finales partent de **`S0_communs.json`**, alors que l’étude exploratoire du renouvellement N50 reprend le glouton historique de coût **614,04**, sauvegardé dans `S0_exploratoires.json`. Ce départ est figé car les départages du glouton recalculé peuvent varier selon la version de pandas. Les archives PLS conservent leur départ historique. Ces expériences ne doivent pas être mélangées sans vérifier leur protocole.
 
 Les méthodes sont heuristiques : aucun optimum global n’est garanti, hors énumération de N0. Les résultats dépendent des graines, de la machine et du budget de temps. Le contrôle indépendant recalcule les coûts et vérifie les contraintes depuis les CSV ; il ne prouve pas l’optimalité. La recherche tabou peut s’arrêter lorsque tous les mouvements deviennent tabous ; la version livrée ne contient pas de critère d’aspiration.
 

@@ -14,10 +14,11 @@ c68f7f95ad444209363bda44c36990aee22e4ecdc62a5c2dd417d61cc7669abf
 - Les campagnes longues sont protégées par `LANCER_CAMPAGNES = False`. Les exemples courts restent actifs. L’activation explicite lance aussi les campagnes intermédiaires de réglage.
 - Les fonctions locales, tabou et hybrides sont exportées dans `code/local_tabou.py` pour un usage sans notebook.
 - Le script exact crée son dossier de sortie s’il manque ; le lecteur CSV indépendant ferme explicitement ses fichiers.
+- Le départ historique N50 est extrait des archives dans `S0_exploratoires.json` et chargé explicitement par les lanceurs exploratoires. La première exécution sur GitHub a révélé que le glouton recalculé pouvait donner 687,919 au lieu de 614,036 selon la version de pandas ; charger le planning sauvegardé conserve le protocole des compléments.
 - Les sorties intégrées au notebook sont retirées. Les archives de résultats sont conservées dans leurs dossiers, séparément des nouveaux calculs.
 - La déclaration d’assistance IA est précisée, et la limite connue du blocage tabou est expliquée.
 
-Les fonctions des algorithmes ne sont pas réécrites pour cette publication. Les modules des cellules `%%writefile` sont extraits tels quels, à l’exception de ces deux corrections de gestion des fichiers. Le socle et les méthodes locales assemblent les définitions du notebook. Les lanceurs historiques et leurs formats de sortie sont conservés ; le README distingue leurs usages.
+Les fonctions des algorithmes ne sont pas réécrites pour cette publication. Les modules des cellules `%%writefile` sont extraits tels quels, à l’exception des corrections de gestion des fichiers et du chargement explicite du départ historique N50. Le socle et les méthodes locales assemblent les définitions du notebook. Les formats de sortie des lanceurs historiques sont conservés ; le README distingue leurs usages.
 
 ## Vérifications
 
