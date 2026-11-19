@@ -25,7 +25,7 @@ def instance(nom):
     if nom not in _cache:
         N = lire_instance(os.path.join("donnees", nom))
         preparer_instance(N)
-        _cache[nom] = (N, json.load(open("S0_communs.json"))[nom])
+        _cache[nom] = (N, json.load(open("donnees/S0_communs.json"))[nom])
     return _cache[nom]
 
 

@@ -22,7 +22,7 @@ SORTIE = os.path.join(RACINE, "resultats", "variante_P", "comparaison_P.json")
 def charger(nom):
     N = lire_instance(os.path.join(RACINE, "donnees", nom))
     preparer_instance(N)
-    return N, json.load(open(os.path.join(RACINE, "S0_communs.json")))[nom]
+    return N, json.load(open(os.path.join(RACINE, "donnees", "S0_communs.json")))[nom]
 
 
 def lancer(tache):

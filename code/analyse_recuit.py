@@ -37,7 +37,7 @@ def ref_S0():
     for nom in INST:
         N = lire_instance(os.path.join("donnees", nom))
         preparer_instance(N)
-        S0 = json.load(open("S0_communs.json"))[nom]
+        S0 = json.load(open("donnees/S0_communs.json"))[nom]
         D, R = objectifs(S0, N)
         out[nom] = {"N": N, "S0": S0, "f0": f(S0, N), "D0": D, "R0": R, "c": N["penalite"],
                     "n": len(N["interventions"]), "m": len(N["techs"])}

@@ -67,7 +67,7 @@ class NexoviaTests(unittest.TestCase):
     def test_25_sorties_apports(self):
         dossiers = {"long_terme_N200": 5, "recuit_N200": 5, "renouvellement_N50": 15}
         for dossier, nombre in dossiers.items():
-            fichiers = sorted((ROOT / "resultats_apports" / dossier).glob("*.json"))
+            fichiers = sorted((ROOT / "resultats" / "complements" / dossier).glob("*.json"))
             self.assertEqual(len(fichiers), nombre)
             for p in fichiers:
                 with self.subTest(fichier=p.name):

@@ -26,10 +26,10 @@ def charger(nom, depart='commun'):
     if depart == 'historique-pls':
         S0 = json.loads((ROOT / 'resultats/multiobjectif' / f'PLS_{nom}.json').read_text())['solution_initiale']
     elif depart == 'exploratoire':
-        historiques = json.loads((ROOT / 'S0_exploratoires.json').read_text())
+        historiques = json.loads((ROOT / 'donnees' / 'S0_exploratoires.json').read_text())
         S0 = historiques[nom] if nom in historiques else heuristique_gloutonne(N)
     else:
-        S0 = json.loads((ROOT / 'S0_communs.json').read_text())[nom]
+        S0 = json.loads((ROOT / 'donnees' / 'S0_communs.json').read_text())[nom]
     if not est_realisable(S0, N):
         raise ValueError('S0 non réalisable')
     return N, S0

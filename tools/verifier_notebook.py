@@ -13,7 +13,7 @@ def main():
         shutil.copytree(ROOT, copie, ignore=shutil.ignore_patterns(
             ".git", ".venv", "__pycache__", ".ipynb_checkpoints", ".matplotlib",
             "nouveaux_*", "analyses", "analyses_regenerees"))
-        nb = nbformat.read(copie / "Nexovia_code_complet.ipynb", as_version=4)
+        nb = nbformat.read(copie / "Nexovia.ipynb", as_version=4)
         NotebookClient(nb, timeout=180, kernel_name="python3",
                        resources={"metadata": {"path": str(copie)}}).execute()
         print("Notebook : toutes les cellules exécutées ; campagnes longues désactivées.")

@@ -1,7 +1,5 @@
-"""Lanceur de compilation des plans exploratoires utilisés, avec le génétique final.
-Les sources des plans d'origine figurent dans sources_protocoles_utilises/.
-Les S0 exploratoires sont recalculés par le glouton historique, comme lors des
-réglages. Ces essais ne doivent pas être mélangés à la campagne principale.
+"""Plans de sensibilité et de diversité du génétique.
+Le départ historique de N50 est conservé dans donnees/S0_exploratoires.json. Ces essais ne doivent pas être mélangés à la campagne principale.
 """
 # Trois plans d'expériences pour le génétique (depuis le dossier du notebook) :
 #   python code/sensibilite_diversite.py sensibilite    -> un paramètre à la fois (30 s)

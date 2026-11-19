@@ -1,7 +1,7 @@
 """Recrée les statistiques et figures des deux apports, sans nouveaux calculs."""
 # (Ce fichier s'appelait analyser.py dans le dossier des apports d'Axel. On l'a renommé
 # pour ne pas le confondre avec code/analyser.py, qui analyse la campagne principale.)
-# Depuis le dossier du notebook : python code/analyser_apports.py --resultats resultats_apports
+# Depuis le dossier du notebook : python code/analyser_apports.py --resultats resultats/complements
 # Sorties dans analyses/ : tableaux csv, synthese.json, N200_convergence et N50_renouvellement (png et svg).
 
 import os
@@ -33,7 +33,7 @@ def ecrire(p, rows):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--partiel', action='store_true')
-    p.add_argument('--resultats', default='resultats')
+    p.add_argument('--resultats', default='resultats/complements')
     p.add_argument('--sortie', default='analyses')
     p.add_argument('--sans-graphiques', action='store_true')
     a = p.parse_args()
